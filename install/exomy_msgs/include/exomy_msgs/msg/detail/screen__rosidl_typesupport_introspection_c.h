@@ -1,0 +1,1 @@
+/home/thezerdas/exomy/exomy_ws/build/exomy_msgs/rosidl_typesupport_introspection_c/exomy_msgs/msg/detail/screen__rosidl_typesupport_introspection_c.h

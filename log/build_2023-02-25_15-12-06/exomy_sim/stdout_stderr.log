@@ -1,0 +1,121 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /opt/ros/foxy/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found exomy_msgs: 2.0.0 (/home/thezerdas/exomy/exomy_ws/install/exomy_msgs/share/exomy_msgs/cmake)
+-- Found exomy_sim_msgs: 2.0.0 (/home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/share/exomy_sim_msgs/cmake)
+-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/thezerdas/exomy/exomy_ws/build/exomy_sim
+[35m[1mScanning dependencies of target joint_command_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/joint_command_node.dir/src/joint_command_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable joint_command_node[0m
+[100%] Built target joint_command_node
+-- Install configuration: ""
+-- Installing: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/config
+-- Installing: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/config/joint_names_exomy_model.yaml
+-- Installing: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/config/mapper_params_online_async.yaml
+-- Installing: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/rviz
+-- Installing: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/rviz/simulation.rviz
+-- Installing: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/rviz/simulation2.rviz
+-- Installing: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/rviz/simulation3.rviz
+-- Installing: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models
+-- Installing: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/exomy_model
+-- Installing: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/exomy_model/exomy_model.csv
+-- Installing: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/exomy_model/model.config
+-- Installing: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/exomy_model/meshes
+-- Installing: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/exomy_model/meshes/STR_RF_link.STL
+-- Installing: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/exomy_model/meshes/DRV_LM_link.STL
+-- Installing: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/exomy_model/meshes/base_link.STL
+-- Installing: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/exomy_model/meshes/STR_LR_link.STL
+-- Installing: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/exomy_model/meshes/STR_LF_link.STL
+-- Installing: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/exomy_model/meshes/pupil_right_link.STL
+-- Installing: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/exomy_model/meshes/pupil_left_link.STL
+-- Installing: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/exomy_model/meshes/MRB_link.STL
+-- Installing: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/exomy_model/meshes/hat_link.STL
+-- Installing: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/exomy_model/meshes/bling_link.STL
+-- Installing: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/exomy_model/meshes/RFB_link.STL
+-- Installing: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/exomy_model/meshes/DRV_LF_link.STL
+-- Installing: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/exomy_model/meshes/eyewhite_link.STL
+-- Installing: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/exomy_model/meshes/cam_link.STL
+-- Installing: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/exomy_model/meshes/STR_RM_link.STL
+-- Installing: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/exomy_model/meshes/DRV_RF_link.STL
+-- Installing: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/exomy_model/meshes/DRV_RM_link.STL
+-- Installing: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/exomy_model/meshes/DRV_RR_link.STL
+-- Installing: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/exomy_model/meshes/STR_RR_link.STL
+-- Installing: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/exomy_model/meshes/LFB_link.STL
+-- Installing: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/exomy_model/meshes/head_link.STL
+-- Installing: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/exomy_model/meshes/STR_LM_link.STL
+-- Installing: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/exomy_model/meshes/DRV_LR_link.STL
+-- Installing: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/exomy_model/exomy_model.urdf
+-- Installing: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/exomy_model/exomy_model_ros.urdf
+-- Installing: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/mars_yard
+-- Installing: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/mars_yard/model.config
+-- Installing: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/mars_yard/meshes
+-- Installing: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/mars_yard/meshes/mars_yard.dae
+-- Installing: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/mars_yard/meshes/PUTBOrtho.jpg
+-- Installing: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/mars_yard/model.sdf
+-- Installing: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/mars_yard/model
+-- Installing: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/mars_yard/model/lab_terrain.blend
+-- Installing: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/exomy_model.urdf
+-- Installing: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/curiosity
+-- Installing: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/curiosity/model.config
+-- Installing: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/curiosity/meshes
+-- Installing: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/curiosity/meshes/curiosity.stl
+-- Installing: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/curiosity/model.sdf
+-- Installing: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/worlds
+-- Installing: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/worlds/obstacles.world
+-- Installing: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/worlds/curiosity.world
+-- Installing: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/worlds/empty.world
+-- Installing: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/worlds/mars_yard.world
+-- Execute custom install script
+-- Symlinking: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/lib/exomy_sim/joint_command_node
+-- Symlinking: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/environment/exomy_sim.sh
+-- Symlinking: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/environment/exomy_sim.dsv
+-- Symlinking: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/ament_index/resource_index/package_run_dependencies/exomy_sim
+-- Symlinking: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/ament_index/resource_index/parent_prefix_path/exomy_sim
+-- Symlinking: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/environment/ament_prefix_path.sh
+-- Symlinking: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/environment/ament_prefix_path.dsv
+-- Symlinking: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/environment/path.sh
+-- Symlinking: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/environment/path.dsv
+-- Symlinking: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/local_setup.bash
+-- Symlinking: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/local_setup.sh
+-- Symlinking: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/local_setup.zsh
+-- Symlinking: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/local_setup.dsv
+-- Symlinking: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/package.dsv
+-- Symlinking: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/ament_index/resource_index/packages/exomy_sim
+-- Symlinking: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/cmake/exomy_simConfig.cmake
+-- Symlinking: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/cmake/exomy_simConfig-version.cmake
+-- Symlinking: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/package.xml

@@ -1,0 +1,120 @@
+[0.068s] Invoking command in '/home/thezerdas/exomy/exomy_ws/build/exomy_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/thezerdas/exomy/exomy_ws/install/exomy:/opt/ros/foxy /usr/bin/cmake --build /home/thezerdas/exomy/exomy_ws/build/exomy_msgs -- -j2 -l2
+[0.301s] [  2%] Built target exomy_msgs__cpp
+[0.303s] [ 12%] Built target exomy_msgs__rosidl_generator_c
+[0.382s] [ 23%] Built target exomy_msgs__rosidl_typesupport_introspection_c
+[0.433s] [ 34%] Built target exomy_msgs__rosidl_typesupport_c
+[0.488s] [ 44%] Built target exomy_msgs__rosidl_typesupport_introspection_cpp
+[0.546s] [ 55%] Built target exomy_msgs__rosidl_typesupport_fastrtps_cpp
+[0.615s] [ 65%] Built target exomy_msgs__rosidl_typesupport_cpp
+[0.631s] [ 76%] Built target exomy_msgs__rosidl_typesupport_fastrtps_c
+[0.674s] [ 76%] Built target exomy_msgs
+[0.715s] [ 78%] Built target exomy_msgs__py
+[0.772s] [ 87%] Built target exomy_msgs__python
+[0.842s] [ 91%] Built target exomy_msgs__rosidl_typesupport_c__pyext
+[0.882s] [ 95%] Built target exomy_msgs__rosidl_typesupport_introspection_c__pyext
+[0.941s] [100%] Built target exomy_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.964s] Invoked command in '/home/thezerdas/exomy/exomy_ws/build/exomy_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/thezerdas/exomy/exomy_ws/install/exomy:/opt/ros/foxy /usr/bin/cmake --build /home/thezerdas/exomy/exomy_ws/build/exomy_msgs -- -j2 -l2
+[1.197s] Invoking command in '/home/thezerdas/exomy/exomy_ws/build/exomy_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/thezerdas/exomy/exomy_ws/install/exomy:/opt/ros/foxy /usr/bin/cmake --install /home/thezerdas/exomy/exomy_ws/build/exomy_msgs
+[1.253s] -- Install configuration: ""
+[1.256s] -- Execute custom install script
+[1.258s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_msgs/share/ament_index/resource_index/rosidl_interfaces/exomy_msgs
+[1.261s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_msgs/include/exomy_msgs/msg/detail/motor_commands__functions.h
+[1.263s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_msgs/include/exomy_msgs/msg/detail/motor_commands__struct.h
+[1.269s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_msgs/include/exomy_msgs/msg/detail/motor_commands__type_support.h
+[1.269s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_msgs/include/exomy_msgs/msg/detail/rover_command__functions.h
+[1.269s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_msgs/include/exomy_msgs/msg/detail/rover_command__struct.h
+[1.270s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_msgs/include/exomy_msgs/msg/detail/rover_command__type_support.h
+[1.270s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_msgs/include/exomy_msgs/msg/detail/screen__functions.h
+[1.270s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_msgs/include/exomy_msgs/msg/detail/screen__struct.h
+[1.271s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_msgs/include/exomy_msgs/msg/detail/screen__type_support.h
+[1.271s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_msgs/include/exomy_msgs/msg/motor_commands.h
+[1.274s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_msgs/include/exomy_msgs/msg/rosidl_generator_c__visibility_control.h
+[1.275s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_msgs/include/exomy_msgs/msg/rover_command.h
+[1.276s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_msgs/include/exomy_msgs/msg/screen.h
+[1.277s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_msgs/share/exomy_msgs/environment/library_path.sh
+[1.278s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_msgs/share/exomy_msgs/environment/library_path.dsv
+[1.281s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_msgs/include/exomy_msgs/msg/detail/motor_commands__rosidl_typesupport_fastrtps_c.h
+[1.281s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_msgs/include/exomy_msgs/msg/detail/rover_command__rosidl_typesupport_fastrtps_c.h
+[1.282s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_msgs/include/exomy_msgs/msg/detail/screen__rosidl_typesupport_fastrtps_c.h
+[1.284s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_msgs/include/exomy_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.285s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_msgs/lib/libexomy_msgs__rosidl_typesupport_fastrtps_c.so
+[1.288s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_msgs/include/exomy_msgs/msg/detail/motor_commands__rosidl_typesupport_fastrtps_cpp.hpp
+[1.289s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_msgs/include/exomy_msgs/msg/detail/rover_command__rosidl_typesupport_fastrtps_cpp.hpp
+[1.290s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_msgs/include/exomy_msgs/msg/detail/screen__rosidl_typesupport_fastrtps_cpp.hpp
+[1.291s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_msgs/include/exomy_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.292s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_msgs/lib/libexomy_msgs__rosidl_typesupport_fastrtps_cpp.so
+[1.295s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_msgs/include/exomy_msgs/msg/detail/motor_commands__rosidl_typesupport_introspection_c.h
+[1.295s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_msgs/include/exomy_msgs/msg/detail/rover_command__rosidl_typesupport_introspection_c.h
+[1.296s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_msgs/include/exomy_msgs/msg/detail/screen__rosidl_typesupport_introspection_c.h
+[1.296s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_msgs/include/exomy_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.299s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_msgs/include/exomy_msgs/msg/detail/motor_commands__builder.hpp
+[1.300s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_msgs/include/exomy_msgs/msg/detail/motor_commands__struct.hpp
+[1.300s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_msgs/include/exomy_msgs/msg/detail/motor_commands__traits.hpp
+[1.302s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_msgs/include/exomy_msgs/msg/detail/rover_command__builder.hpp
+[1.303s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_msgs/include/exomy_msgs/msg/detail/rover_command__struct.hpp
+[1.303s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_msgs/include/exomy_msgs/msg/detail/rover_command__traits.hpp
+[1.305s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_msgs/include/exomy_msgs/msg/detail/screen__builder.hpp
+[1.305s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_msgs/include/exomy_msgs/msg/detail/screen__struct.hpp
+[1.305s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_msgs/include/exomy_msgs/msg/detail/screen__traits.hpp
+[1.306s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_msgs/include/exomy_msgs/msg/motor_commands.hpp
+[1.307s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_msgs/include/exomy_msgs/msg/rover_command.hpp
+[1.308s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_msgs/include/exomy_msgs/msg/screen.hpp
+[1.312s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_msgs/include/exomy_msgs/msg/detail/motor_commands__rosidl_typesupport_introspection_cpp.hpp
+[1.312s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_msgs/include/exomy_msgs/msg/detail/rover_command__rosidl_typesupport_introspection_cpp.hpp
+[1.313s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_msgs/include/exomy_msgs/msg/detail/screen__rosidl_typesupport_introspection_cpp.hpp
+[1.314s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_msgs/share/exomy_msgs/environment/pythonpath.sh
+[1.316s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_msgs/share/exomy_msgs/environment/pythonpath.dsv
+[1.317s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_msgs/lib/python3.8/site-packages/exomy_msgs/__init__.py
+[1.320s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_msgs/lib/python3.8/site-packages/exomy_msgs/msg/__init__.py
+[1.320s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_msgs/lib/python3.8/site-packages/exomy_msgs/msg/_motor_commands.py
+[1.321s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_msgs/lib/python3.8/site-packages/exomy_msgs/msg/_rover_command.py
+[1.322s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_msgs/lib/python3.8/site-packages/exomy_msgs/msg/_screen.py
+[1.323s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_msgs/lib/python3.8/site-packages/exomy_msgs/exomy_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[1.326s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_msgs/lib/python3.8/site-packages/exomy_msgs/exomy_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[1.328s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_msgs/lib/python3.8/site-packages/exomy_msgs/exomy_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[1.329s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_msgs/lib/libexomy_msgs__python.so
+[1.331s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_msgs/share/exomy_msgs/msg/MotorCommands.idl
+[1.337s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_msgs/share/exomy_msgs/msg/RoverCommand.idl
+[1.338s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_msgs/share/exomy_msgs/msg/Screen.idl
+[1.339s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_msgs/share/exomy_msgs/msg/MotorCommands.msg
+[1.340s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_msgs/share/exomy_msgs/msg/RoverCommand.msg
+[1.341s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_msgs/share/exomy_msgs/msg/Screen.msg
+[1.342s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_msgs/share/ament_index/resource_index/package_run_dependencies/exomy_msgs
+[1.344s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_msgs/share/ament_index/resource_index/parent_prefix_path/exomy_msgs
+[1.345s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_msgs/share/exomy_msgs/environment/ament_prefix_path.sh
+[1.346s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_msgs/share/exomy_msgs/environment/ament_prefix_path.dsv
+[1.349s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_msgs/share/exomy_msgs/environment/path.sh
+[1.350s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_msgs/share/exomy_msgs/environment/path.dsv
+[1.350s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_msgs/share/exomy_msgs/local_setup.bash
+[1.351s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_msgs/share/exomy_msgs/local_setup.sh
+[1.351s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_msgs/share/exomy_msgs/local_setup.zsh
+[1.356s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_msgs/share/exomy_msgs/local_setup.dsv
+[1.356s] -- Symlinking: /home/thezerdas/exomy/exomy_ws/install/exomy_msgs/share/exomy_msgs/package.dsv
+[1.399s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_msgs/share/ament_index/resource_index/packages/exomy_msgs
+[1.400s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_msgs/share/exomy_msgs/cmake/rosidl_cmake-extras.cmake
+[1.400s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_msgs/share/exomy_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.401s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_msgs/share/exomy_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[1.401s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_msgs/share/exomy_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[1.402s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_msgs/share/exomy_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.402s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_msgs/share/exomy_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.403s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_msgs/share/exomy_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.404s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_msgs/share/exomy_msgs/cmake/exomy_msgsConfig.cmake
+[1.404s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_msgs/share/exomy_msgs/cmake/exomy_msgsConfig-version.cmake
+[1.405s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_msgs/share/exomy_msgs/package.xml
+[1.405s] -- Up-to-date: /home/thezerdas/exomy/exomy_ws/install/exomy_msgs/lib/libexomy_msgs__rosidl_generator_c.so
+[1.410s] -- Up-to-date: /home/thezerdas/exomy/exomy_ws/install/exomy_msgs/lib/libexomy_msgs__rosidl_typesupport_introspection_c.so
+[1.411s] -- Up-to-date: /home/thezerdas/exomy/exomy_ws/install/exomy_msgs/lib/libexomy_msgs__rosidl_typesupport_c.so
+[1.412s] -- Up-to-date: /home/thezerdas/exomy/exomy_ws/install/exomy_msgs/lib/libexomy_msgs__rosidl_typesupport_introspection_cpp.so
+[1.413s] -- Up-to-date: /home/thezerdas/exomy/exomy_ws/install/exomy_msgs/lib/libexomy_msgs__rosidl_typesupport_cpp.so
+[1.590s] -- Up-to-date: /home/thezerdas/exomy/exomy_ws/install/exomy_msgs/share/exomy_msgs/cmake/exomy_msgs__rosidl_generator_cExport.cmake
+[1.590s] -- Up-to-date: /home/thezerdas/exomy/exomy_ws/install/exomy_msgs/share/exomy_msgs/cmake/exomy_msgs__rosidl_generator_cExport-noconfig.cmake
+[1.590s] -- Up-to-date: /home/thezerdas/exomy/exomy_ws/install/exomy_msgs/share/exomy_msgs/cmake/exomy_msgs__rosidl_typesupport_introspection_cExport.cmake
+[1.590s] -- Up-to-date: /home/thezerdas/exomy/exomy_ws/install/exomy_msgs/share/exomy_msgs/cmake/exomy_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.591s] -- Up-to-date: /home/thezerdas/exomy/exomy_ws/install/exomy_msgs/share/exomy_msgs/cmake/exomy_msgs__rosidl_typesupport_cExport.cmake
+[1.591s] -- Up-to-date: /home/thezerdas/exomy/exomy_ws/install/exomy_msgs/share/exomy_msgs/cmake/exomy_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[1.591s] -- Up-to-date: /home/thezerdas/exomy/exomy_ws/install/exomy_msgs/share/exomy_msgs/cmake/exomy_msgs__rosidl_generator_cppExport.cmake
+[1.591s] -- Up-to-date: /home/thezerdas/exomy/exomy_ws/install/exomy_msgs/share/exomy_msgs/cmake/exomy_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[1.591s] -- Up-to-date: /home/thezerdas/exomy/exomy_ws/install/exomy_msgs/share/exomy_msgs/cmake/exomy_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.592s] -- Up-to-date: /home/thezerdas/exomy/exomy_ws/install/exomy_msgs/share/exomy_msgs/cmake/exomy_msgs__rosidl_typesupport_cppExport.cmake
+[1.592s] -- Up-to-date: /home/thezerdas/exomy/exomy_ws/install/exomy_msgs/share/exomy_msgs/cmake/exomy_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[1.665s] Invoked command in '/home/thezerdas/exomy/exomy_ws/build/exomy_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/thezerdas/exomy/exomy_ws/install/exomy:/opt/ros/foxy /usr/bin/cmake --install /home/thezerdas/exomy/exomy_ws/build/exomy_msgs

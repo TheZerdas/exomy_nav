@@ -1,0 +1,571 @@
+[0.755s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.755s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f674c523ac0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=2, paths=None, symlink_install=True, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f674c523ac0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f674c52f070>)
+[0.841s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.841s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.841s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.842s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.842s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.842s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.842s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/thezerdas/exomy/exomy_ws'
+[0.842s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.842s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.842s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.842s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.842s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.843s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.843s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.843s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.843s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.889s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.889s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.889s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.889s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.889s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.890s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.890s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.890s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.890s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.890s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.890s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.891s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.891s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.891s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.891s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.891s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.891s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.891s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.891s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.892s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.892s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.892s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.892s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.892s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.892s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.892s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.892s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.892s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.892s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthimage_to_laserscan-foxy-devel) by extensions ['ignore', 'ignore_ament_install']
+[0.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthimage_to_laserscan-foxy-devel) by extension 'ignore'
+[0.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthimage_to_laserscan-foxy-devel) by extension 'ignore_ament_install'
+[0.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthimage_to_laserscan-foxy-devel) by extensions ['colcon_pkg']
+[0.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthimage_to_laserscan-foxy-devel) by extension 'colcon_pkg'
+[0.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthimage_to_laserscan-foxy-devel) by extensions ['colcon_meta']
+[0.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthimage_to_laserscan-foxy-devel) by extension 'colcon_meta'
+[0.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthimage_to_laserscan-foxy-devel) by extensions ['ros']
+[0.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/depthimage_to_laserscan-foxy-devel) by extension 'ros'
+[0.902s] DEBUG:colcon.colcon_core.package_identification:Package 'src/depthimage_to_laserscan-foxy-devel' with type 'ros.ament_cmake' and name 'depthimage_to_laserscan'
+[0.902s] Level 1:colcon.colcon_core.package_identification:_identify(src/exomy) by extensions ['ignore', 'ignore_ament_install']
+[0.902s] Level 1:colcon.colcon_core.package_identification:_identify(src/exomy) by extension 'ignore'
+[0.902s] Level 1:colcon.colcon_core.package_identification:_identify(src/exomy) by extension 'ignore_ament_install'
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(src/exomy) by extensions ['colcon_pkg']
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(src/exomy) by extension 'colcon_pkg'
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(src/exomy) by extensions ['colcon_meta']
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(src/exomy) by extension 'colcon_meta'
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(src/exomy) by extensions ['ros']
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(src/exomy) by extension 'ros'
+[0.904s] DEBUG:colcon.colcon_core.package_identification:Package 'src/exomy' with type 'ros.ament_python' and name 'exomy'
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(src/exomy_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.905s] Level 1:colcon.colcon_core.package_identification:_identify(src/exomy_msgs) by extension 'ignore'
+[0.905s] Level 1:colcon.colcon_core.package_identification:_identify(src/exomy_msgs) by extension 'ignore_ament_install'
+[0.905s] Level 1:colcon.colcon_core.package_identification:_identify(src/exomy_msgs) by extensions ['colcon_pkg']
+[0.905s] Level 1:colcon.colcon_core.package_identification:_identify(src/exomy_msgs) by extension 'colcon_pkg'
+[0.905s] Level 1:colcon.colcon_core.package_identification:_identify(src/exomy_msgs) by extensions ['colcon_meta']
+[0.905s] Level 1:colcon.colcon_core.package_identification:_identify(src/exomy_msgs) by extension 'colcon_meta'
+[0.905s] Level 1:colcon.colcon_core.package_identification:_identify(src/exomy_msgs) by extensions ['ros']
+[0.905s] Level 1:colcon.colcon_core.package_identification:_identify(src/exomy_msgs) by extension 'ros'
+[0.906s] DEBUG:colcon.colcon_core.package_identification:Package 'src/exomy_msgs' with type 'ros.ament_cmake' and name 'exomy_msgs'
+[0.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/exomy_sim) by extensions ['ignore', 'ignore_ament_install']
+[0.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/exomy_sim) by extension 'ignore'
+[0.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/exomy_sim) by extension 'ignore_ament_install'
+[0.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/exomy_sim) by extensions ['colcon_pkg']
+[0.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/exomy_sim) by extension 'colcon_pkg'
+[0.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/exomy_sim) by extensions ['colcon_meta']
+[0.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/exomy_sim) by extension 'colcon_meta'
+[0.908s] Level 1:colcon.colcon_core.package_identification:_identify(src/exomy_sim) by extensions ['ros']
+[0.908s] Level 1:colcon.colcon_core.package_identification:_identify(src/exomy_sim) by extension 'ros'
+[0.909s] DEBUG:colcon.colcon_core.package_identification:Package 'src/exomy_sim' with type 'ros.ament_cmake' and name 'exomy_sim'
+[0.910s] Level 1:colcon.colcon_core.package_identification:_identify(src/exomy_sim_launch) by extensions ['ignore', 'ignore_ament_install']
+[0.910s] Level 1:colcon.colcon_core.package_identification:_identify(src/exomy_sim_launch) by extension 'ignore'
+[0.910s] Level 1:colcon.colcon_core.package_identification:_identify(src/exomy_sim_launch) by extension 'ignore_ament_install'
+[0.910s] Level 1:colcon.colcon_core.package_identification:_identify(src/exomy_sim_launch) by extensions ['colcon_pkg']
+[0.910s] Level 1:colcon.colcon_core.package_identification:_identify(src/exomy_sim_launch) by extension 'colcon_pkg'
+[0.910s] Level 1:colcon.colcon_core.package_identification:_identify(src/exomy_sim_launch) by extensions ['colcon_meta']
+[0.910s] Level 1:colcon.colcon_core.package_identification:_identify(src/exomy_sim_launch) by extension 'colcon_meta'
+[0.910s] Level 1:colcon.colcon_core.package_identification:_identify(src/exomy_sim_launch) by extensions ['ros']
+[0.910s] Level 1:colcon.colcon_core.package_identification:_identify(src/exomy_sim_launch) by extension 'ros'
+[0.911s] DEBUG:colcon.colcon_core.package_identification:Package 'src/exomy_sim_launch' with type 'ros.ament_cmake' and name 'exomy_sim_launch'
+[0.912s] Level 1:colcon.colcon_core.package_identification:_identify(src/exomy_sim_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.912s] Level 1:colcon.colcon_core.package_identification:_identify(src/exomy_sim_msgs) by extension 'ignore'
+[0.912s] Level 1:colcon.colcon_core.package_identification:_identify(src/exomy_sim_msgs) by extension 'ignore_ament_install'
+[0.912s] Level 1:colcon.colcon_core.package_identification:_identify(src/exomy_sim_msgs) by extensions ['colcon_pkg']
+[0.912s] Level 1:colcon.colcon_core.package_identification:_identify(src/exomy_sim_msgs) by extension 'colcon_pkg'
+[0.912s] Level 1:colcon.colcon_core.package_identification:_identify(src/exomy_sim_msgs) by extensions ['colcon_meta']
+[0.912s] Level 1:colcon.colcon_core.package_identification:_identify(src/exomy_sim_msgs) by extension 'colcon_meta'
+[0.912s] Level 1:colcon.colcon_core.package_identification:_identify(src/exomy_sim_msgs) by extensions ['ros']
+[0.912s] Level 1:colcon.colcon_core.package_identification:_identify(src/exomy_sim_msgs) by extension 'ros'
+[0.913s] DEBUG:colcon.colcon_core.package_identification:Package 'src/exomy_sim_msgs' with type 'ros.ament_cmake' and name 'exomy_sim_msgs'
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(src/rover_gazebo_plugins) by extensions ['ignore', 'ignore_ament_install']
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(src/rover_gazebo_plugins) by extension 'ignore'
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(src/rover_gazebo_plugins) by extension 'ignore_ament_install'
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(src/rover_gazebo_plugins) by extensions ['colcon_pkg']
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(src/rover_gazebo_plugins) by extension 'colcon_pkg'
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(src/rover_gazebo_plugins) by extensions ['colcon_meta']
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(src/rover_gazebo_plugins) by extension 'colcon_meta'
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(src/rover_gazebo_plugins) by extensions ['ros']
+[0.915s] Level 1:colcon.colcon_core.package_identification:_identify(src/rover_gazebo_plugins) by extension 'ros'
+[0.916s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rover_gazebo_plugins' with type 'ros.ament_cmake' and name 'rover_gazebo_plugins'
+[0.916s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.916s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.916s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.916s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.916s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.968s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.969s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.980s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 7 installed packages in /home/thezerdas/exomy/exomy_ws/install
+[0.983s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/thezerdas/ros2_ws/install
+[0.987s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 293 installed packages in /opt/ros/foxy
+[0.992s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.187s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'depthimage_to_laserscan' is in: /home/thezerdas/exomy/exomy_ws/install/depthimage_to_laserscan, /opt/ros/foxy
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding depthimage_to_laserscan
+
+This may be promoted to an error in a future release of colcon-override-check.
+[1.191s] Level 5:colcon.colcon_core.verb:set package 'depthimage_to_laserscan' build argument 'cmake_args' from command line to 'None'
+[1.191s] Level 5:colcon.colcon_core.verb:set package 'depthimage_to_laserscan' build argument 'cmake_target' from command line to 'None'
+[1.191s] Level 5:colcon.colcon_core.verb:set package 'depthimage_to_laserscan' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.191s] Level 5:colcon.colcon_core.verb:set package 'depthimage_to_laserscan' build argument 'cmake_clean_cache' from command line to 'False'
+[1.191s] Level 5:colcon.colcon_core.verb:set package 'depthimage_to_laserscan' build argument 'cmake_clean_first' from command line to 'False'
+[1.191s] Level 5:colcon.colcon_core.verb:set package 'depthimage_to_laserscan' build argument 'cmake_force_configure' from command line to 'False'
+[1.191s] Level 5:colcon.colcon_core.verb:set package 'depthimage_to_laserscan' build argument 'ament_cmake_args' from command line to 'None'
+[1.191s] Level 5:colcon.colcon_core.verb:set package 'depthimage_to_laserscan' build argument 'catkin_cmake_args' from command line to 'None'
+[1.191s] Level 5:colcon.colcon_core.verb:set package 'depthimage_to_laserscan' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.191s] DEBUG:colcon.colcon_core.verb:Building package 'depthimage_to_laserscan' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/thezerdas/exomy/exomy_ws/build/depthimage_to_laserscan', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/thezerdas/exomy/exomy_ws/install/depthimage_to_laserscan', 'merge_install': False, 'path': '/home/thezerdas/exomy/exomy_ws/src/depthimage_to_laserscan-foxy-devel', 'symlink_install': True, 'test_result_base': None}
+[1.194s] Level 5:colcon.colcon_core.verb:set package 'exomy_msgs' build argument 'cmake_args' from command line to 'None'
+[1.194s] Level 5:colcon.colcon_core.verb:set package 'exomy_msgs' build argument 'cmake_target' from command line to 'None'
+[1.194s] Level 5:colcon.colcon_core.verb:set package 'exomy_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.194s] Level 5:colcon.colcon_core.verb:set package 'exomy_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[1.194s] Level 5:colcon.colcon_core.verb:set package 'exomy_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[1.194s] Level 5:colcon.colcon_core.verb:set package 'exomy_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[1.194s] Level 5:colcon.colcon_core.verb:set package 'exomy_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[1.194s] Level 5:colcon.colcon_core.verb:set package 'exomy_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[1.194s] Level 5:colcon.colcon_core.verb:set package 'exomy_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.194s] DEBUG:colcon.colcon_core.verb:Building package 'exomy_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/thezerdas/exomy/exomy_ws/build/exomy_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/thezerdas/exomy/exomy_ws/install/exomy_msgs', 'merge_install': False, 'path': '/home/thezerdas/exomy/exomy_ws/src/exomy_msgs', 'symlink_install': True, 'test_result_base': None}
+[1.197s] Level 5:colcon.colcon_core.verb:set package 'exomy_sim_msgs' build argument 'cmake_args' from command line to 'None'
+[1.197s] Level 5:colcon.colcon_core.verb:set package 'exomy_sim_msgs' build argument 'cmake_target' from command line to 'None'
+[1.197s] Level 5:colcon.colcon_core.verb:set package 'exomy_sim_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.197s] Level 5:colcon.colcon_core.verb:set package 'exomy_sim_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[1.197s] Level 5:colcon.colcon_core.verb:set package 'exomy_sim_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[1.197s] Level 5:colcon.colcon_core.verb:set package 'exomy_sim_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[1.197s] Level 5:colcon.colcon_core.verb:set package 'exomy_sim_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[1.197s] Level 5:colcon.colcon_core.verb:set package 'exomy_sim_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[1.197s] Level 5:colcon.colcon_core.verb:set package 'exomy_sim_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.197s] DEBUG:colcon.colcon_core.verb:Building package 'exomy_sim_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/thezerdas/exomy/exomy_ws/build/exomy_sim_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs', 'merge_install': False, 'path': '/home/thezerdas/exomy/exomy_ws/src/exomy_sim_msgs', 'symlink_install': True, 'test_result_base': None}
+[1.200s] Level 5:colcon.colcon_core.verb:set package 'exomy' build argument 'cmake_args' from command line to 'None'
+[1.200s] Level 5:colcon.colcon_core.verb:set package 'exomy' build argument 'cmake_target' from command line to 'None'
+[1.200s] Level 5:colcon.colcon_core.verb:set package 'exomy' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.200s] Level 5:colcon.colcon_core.verb:set package 'exomy' build argument 'cmake_clean_cache' from command line to 'False'
+[1.200s] Level 5:colcon.colcon_core.verb:set package 'exomy' build argument 'cmake_clean_first' from command line to 'False'
+[1.200s] Level 5:colcon.colcon_core.verb:set package 'exomy' build argument 'cmake_force_configure' from command line to 'False'
+[1.200s] Level 5:colcon.colcon_core.verb:set package 'exomy' build argument 'ament_cmake_args' from command line to 'None'
+[1.201s] Level 5:colcon.colcon_core.verb:set package 'exomy' build argument 'catkin_cmake_args' from command line to 'None'
+[1.201s] Level 5:colcon.colcon_core.verb:set package 'exomy' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.202s] DEBUG:colcon.colcon_core.verb:Building package 'exomy' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/thezerdas/exomy/exomy_ws/build/exomy', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/thezerdas/exomy/exomy_ws/install/exomy', 'merge_install': False, 'path': '/home/thezerdas/exomy/exomy_ws/src/exomy', 'symlink_install': True, 'test_result_base': None}
+[1.204s] Level 5:colcon.colcon_core.verb:set package 'exomy_sim' build argument 'cmake_args' from command line to 'None'
+[1.205s] Level 5:colcon.colcon_core.verb:set package 'exomy_sim' build argument 'cmake_target' from command line to 'None'
+[1.205s] Level 5:colcon.colcon_core.verb:set package 'exomy_sim' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.205s] Level 5:colcon.colcon_core.verb:set package 'exomy_sim' build argument 'cmake_clean_cache' from command line to 'False'
+[1.205s] Level 5:colcon.colcon_core.verb:set package 'exomy_sim' build argument 'cmake_clean_first' from command line to 'False'
+[1.205s] Level 5:colcon.colcon_core.verb:set package 'exomy_sim' build argument 'cmake_force_configure' from command line to 'False'
+[1.205s] Level 5:colcon.colcon_core.verb:set package 'exomy_sim' build argument 'ament_cmake_args' from command line to 'None'
+[1.205s] Level 5:colcon.colcon_core.verb:set package 'exomy_sim' build argument 'catkin_cmake_args' from command line to 'None'
+[1.205s] Level 5:colcon.colcon_core.verb:set package 'exomy_sim' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.205s] DEBUG:colcon.colcon_core.verb:Building package 'exomy_sim' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/thezerdas/exomy/exomy_ws/build/exomy_sim', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/thezerdas/exomy/exomy_ws/install/exomy_sim', 'merge_install': False, 'path': '/home/thezerdas/exomy/exomy_ws/src/exomy_sim', 'symlink_install': True, 'test_result_base': None}
+[1.208s] Level 5:colcon.colcon_core.verb:set package 'rover_gazebo_plugins' build argument 'cmake_args' from command line to 'None'
+[1.208s] Level 5:colcon.colcon_core.verb:set package 'rover_gazebo_plugins' build argument 'cmake_target' from command line to 'None'
+[1.208s] Level 5:colcon.colcon_core.verb:set package 'rover_gazebo_plugins' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.208s] Level 5:colcon.colcon_core.verb:set package 'rover_gazebo_plugins' build argument 'cmake_clean_cache' from command line to 'False'
+[1.208s] Level 5:colcon.colcon_core.verb:set package 'rover_gazebo_plugins' build argument 'cmake_clean_first' from command line to 'False'
+[1.208s] Level 5:colcon.colcon_core.verb:set package 'rover_gazebo_plugins' build argument 'cmake_force_configure' from command line to 'False'
+[1.208s] Level 5:colcon.colcon_core.verb:set package 'rover_gazebo_plugins' build argument 'ament_cmake_args' from command line to 'None'
+[1.208s] Level 5:colcon.colcon_core.verb:set package 'rover_gazebo_plugins' build argument 'catkin_cmake_args' from command line to 'None'
+[1.208s] Level 5:colcon.colcon_core.verb:set package 'rover_gazebo_plugins' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.208s] DEBUG:colcon.colcon_core.verb:Building package 'rover_gazebo_plugins' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/thezerdas/exomy/exomy_ws/build/rover_gazebo_plugins', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/thezerdas/exomy/exomy_ws/install/rover_gazebo_plugins', 'merge_install': False, 'path': '/home/thezerdas/exomy/exomy_ws/src/rover_gazebo_plugins', 'symlink_install': True, 'test_result_base': None}
+[1.211s] Level 5:colcon.colcon_core.verb:set package 'exomy_sim_launch' build argument 'cmake_args' from command line to 'None'
+[1.211s] Level 5:colcon.colcon_core.verb:set package 'exomy_sim_launch' build argument 'cmake_target' from command line to 'None'
+[1.211s] Level 5:colcon.colcon_core.verb:set package 'exomy_sim_launch' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.211s] Level 5:colcon.colcon_core.verb:set package 'exomy_sim_launch' build argument 'cmake_clean_cache' from command line to 'False'
+[1.211s] Level 5:colcon.colcon_core.verb:set package 'exomy_sim_launch' build argument 'cmake_clean_first' from command line to 'False'
+[1.211s] Level 5:colcon.colcon_core.verb:set package 'exomy_sim_launch' build argument 'cmake_force_configure' from command line to 'False'
+[1.211s] Level 5:colcon.colcon_core.verb:set package 'exomy_sim_launch' build argument 'ament_cmake_args' from command line to 'None'
+[1.211s] Level 5:colcon.colcon_core.verb:set package 'exomy_sim_launch' build argument 'catkin_cmake_args' from command line to 'None'
+[1.211s] Level 5:colcon.colcon_core.verb:set package 'exomy_sim_launch' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.211s] DEBUG:colcon.colcon_core.verb:Building package 'exomy_sim_launch' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/thezerdas/exomy/exomy_ws/build/exomy_sim_launch', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/thezerdas/exomy/exomy_ws/install/exomy_sim_launch', 'merge_install': False, 'path': '/home/thezerdas/exomy/exomy_ws/src/exomy_sim_launch', 'symlink_install': True, 'test_result_base': None}
+[1.213s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.221s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.222s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/thezerdas/exomy/exomy_ws/src/exomy_msgs' with build type 'ament_cmake'
+[1.222s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/thezerdas/exomy/exomy_ws/src/exomy_msgs'
+[1.249s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.250s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.250s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.270s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/thezerdas/exomy/exomy_ws/src/exomy_sim_msgs' with build type 'ament_cmake'
+[1.271s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/thezerdas/exomy/exomy_ws/src/exomy_sim_msgs'
+[1.281s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.281s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.326s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/thezerdas/exomy/exomy_ws/build/exomy_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/thezerdas/exomy/exomy_ws/install/exomy:/opt/ros/foxy /usr/bin/cmake --build /home/thezerdas/exomy/exomy_ws/build/exomy_msgs -- -j2 -l2
+[1.366s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/thezerdas/exomy/exomy_ws/build/exomy_sim_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/thezerdas/exomy/exomy_ws/install/exomy:/opt/ros/foxy /usr/bin/cmake --build /home/thezerdas/exomy/exomy_ws/build/exomy_sim_msgs -- -j2 -l2
+[2.373s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/thezerdas/exomy/exomy_ws/build/exomy_sim_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/thezerdas/exomy/exomy_ws/install/exomy:/opt/ros/foxy /usr/bin/cmake --build /home/thezerdas/exomy/exomy_ws/build/exomy_sim_msgs -- -j2 -l2
+[2.410s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/thezerdas/exomy/exomy_ws/build/exomy_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/thezerdas/exomy/exomy_ws/install/exomy:/opt/ros/foxy /usr/bin/cmake --build /home/thezerdas/exomy/exomy_ws/build/exomy_msgs -- -j2 -l2
+[2.591s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/thezerdas/exomy/exomy_ws/build/exomy_sim_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/thezerdas/exomy/exomy_ws/install/exomy:/opt/ros/foxy /usr/bin/cmake --install /home/thezerdas/exomy/exomy_ws/build/exomy_sim_msgs
+[2.614s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/thezerdas/exomy/exomy_ws/build/exomy_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/thezerdas/exomy/exomy_ws/install/exomy:/opt/ros/foxy /usr/bin/cmake --install /home/thezerdas/exomy/exomy_ws/build/exomy_msgs
+[2.860s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(exomy_sim_msgs)
+[2.861s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/thezerdas/exomy/exomy_ws/build/exomy_sim_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/thezerdas/exomy/exomy_ws/install/exomy:/opt/ros/foxy /usr/bin/cmake --install /home/thezerdas/exomy/exomy_ws/build/exomy_sim_msgs
+[2.891s] Level 1:colcon.colcon_core.environment:checking '/home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs' for CMake module files
+[2.893s] Level 1:colcon.colcon_core.environment:checking '/home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs' for CMake config files
+[2.895s] Level 1:colcon.colcon_core.shell:create_environment_hook('exomy_sim_msgs', 'cmake_prefix_path')
+[2.900s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/share/exomy_sim_msgs/hook/cmake_prefix_path.ps1'
+[2.913s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/share/exomy_sim_msgs/hook/cmake_prefix_path.dsv'
+[2.915s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/share/exomy_sim_msgs/hook/cmake_prefix_path.sh'
+[2.918s] Level 1:colcon.colcon_core.environment:checking '/home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/lib'
+[2.918s] Level 1:colcon.colcon_core.shell:create_environment_hook('exomy_sim_msgs', 'ld_library_path_lib')
+[2.921s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/share/exomy_sim_msgs/hook/ld_library_path_lib.ps1'
+[2.922s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/share/exomy_sim_msgs/hook/ld_library_path_lib.dsv'
+[2.923s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/share/exomy_sim_msgs/hook/ld_library_path_lib.sh'
+[2.924s] Level 1:colcon.colcon_core.environment:checking '/home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/bin'
+[2.924s] Level 1:colcon.colcon_core.environment:checking '/home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/lib/pkgconfig/exomy_sim_msgs.pc'
+[2.925s] Level 1:colcon.colcon_core.environment:checking '/home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/lib/python3.8/site-packages'
+[2.925s] Level 1:colcon.colcon_core.shell:create_environment_hook('exomy_sim_msgs', 'pythonpath')
+[2.928s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/share/exomy_sim_msgs/hook/pythonpath.ps1'
+[2.929s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/share/exomy_sim_msgs/hook/pythonpath.dsv'
+[2.930s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/share/exomy_sim_msgs/hook/pythonpath.sh'
+[2.931s] Level 1:colcon.colcon_core.environment:checking '/home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/bin'
+[2.935s] INFO:colcon.colcon_core.shell:Creating package script '/home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/share/exomy_sim_msgs/package.ps1'
+[2.937s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/share/exomy_sim_msgs/package.dsv'
+[2.938s] INFO:colcon.colcon_core.shell:Creating package script '/home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/share/exomy_sim_msgs/package.sh'
+[2.941s] INFO:colcon.colcon_core.shell:Creating package script '/home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/share/exomy_sim_msgs/package.bash'
+[2.943s] INFO:colcon.colcon_core.shell:Creating package script '/home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/share/exomy_sim_msgs/package.zsh'
+[2.944s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/share/colcon-core/packages/exomy_sim_msgs)
+[2.959s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(exomy_msgs)
+[2.966s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/thezerdas/exomy/exomy_ws/build/exomy_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/thezerdas/exomy/exomy_ws/install/exomy:/opt/ros/foxy /usr/bin/cmake --install /home/thezerdas/exomy/exomy_ws/build/exomy_msgs
+[2.967s] Level 1:colcon.colcon_core.environment:checking '/home/thezerdas/exomy/exomy_ws/install/exomy_msgs' for CMake module files
+[2.972s] Level 1:colcon.colcon_core.environment:checking '/home/thezerdas/exomy/exomy_ws/install/exomy_msgs' for CMake config files
+[2.974s] Level 1:colcon.colcon_core.shell:create_environment_hook('exomy_msgs', 'cmake_prefix_path')
+[2.977s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thezerdas/exomy/exomy_ws/install/exomy_msgs/share/exomy_msgs/hook/cmake_prefix_path.ps1'
+[2.978s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/thezerdas/exomy/exomy_ws/install/exomy_msgs/share/exomy_msgs/hook/cmake_prefix_path.dsv'
+[2.984s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thezerdas/exomy/exomy_ws/install/exomy_msgs/share/exomy_msgs/hook/cmake_prefix_path.sh'
+[2.985s] Level 1:colcon.colcon_core.environment:checking '/home/thezerdas/exomy/exomy_ws/install/exomy_msgs/lib'
+[2.985s] Level 1:colcon.colcon_core.shell:create_environment_hook('exomy_msgs', 'ld_library_path_lib')
+[2.989s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thezerdas/exomy/exomy_ws/install/exomy_msgs/share/exomy_msgs/hook/ld_library_path_lib.ps1'
+[2.990s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/thezerdas/exomy/exomy_ws/install/exomy_msgs/share/exomy_msgs/hook/ld_library_path_lib.dsv'
+[2.991s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thezerdas/exomy/exomy_ws/install/exomy_msgs/share/exomy_msgs/hook/ld_library_path_lib.sh'
+[2.992s] Level 1:colcon.colcon_core.environment:checking '/home/thezerdas/exomy/exomy_ws/install/exomy_msgs/bin'
+[2.992s] Level 1:colcon.colcon_core.environment:checking '/home/thezerdas/exomy/exomy_ws/install/exomy_msgs/lib/pkgconfig/exomy_msgs.pc'
+[2.992s] Level 1:colcon.colcon_core.environment:checking '/home/thezerdas/exomy/exomy_ws/install/exomy_msgs/lib/python3.8/site-packages'
+[2.993s] Level 1:colcon.colcon_core.shell:create_environment_hook('exomy_msgs', 'pythonpath')
+[2.996s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thezerdas/exomy/exomy_ws/install/exomy_msgs/share/exomy_msgs/hook/pythonpath.ps1'
+[2.997s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/thezerdas/exomy/exomy_ws/install/exomy_msgs/share/exomy_msgs/hook/pythonpath.dsv'
+[2.998s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thezerdas/exomy/exomy_ws/install/exomy_msgs/share/exomy_msgs/hook/pythonpath.sh'
+[2.999s] Level 1:colcon.colcon_core.environment:checking '/home/thezerdas/exomy/exomy_ws/install/exomy_msgs/bin'
+[3.002s] INFO:colcon.colcon_core.shell:Creating package script '/home/thezerdas/exomy/exomy_ws/install/exomy_msgs/share/exomy_msgs/package.ps1'
+[3.004s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/thezerdas/exomy/exomy_ws/install/exomy_msgs/share/exomy_msgs/package.dsv'
+[3.006s] INFO:colcon.colcon_core.shell:Creating package script '/home/thezerdas/exomy/exomy_ws/install/exomy_msgs/share/exomy_msgs/package.sh'
+[3.007s] INFO:colcon.colcon_core.shell:Creating package script '/home/thezerdas/exomy/exomy_ws/install/exomy_msgs/share/exomy_msgs/package.bash'
+[3.008s] INFO:colcon.colcon_core.shell:Creating package script '/home/thezerdas/exomy/exomy_ws/install/exomy_msgs/share/exomy_msgs/package.zsh'
+[3.009s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/thezerdas/exomy/exomy_ws/install/exomy_msgs/share/colcon-core/packages/exomy_msgs)
+[3.170s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(exomy_sim_msgs)
+[3.177s] Level 1:colcon.colcon_core.environment:checking '/home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs' for CMake module files
+[3.178s] Level 1:colcon.colcon_core.environment:checking '/home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs' for CMake config files
+[3.179s] Level 1:colcon.colcon_core.shell:create_environment_hook('exomy_sim_msgs', 'cmake_prefix_path')
+[3.183s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/share/exomy_sim_msgs/hook/cmake_prefix_path.ps1'
+[3.184s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/share/exomy_sim_msgs/hook/cmake_prefix_path.dsv'
+[3.185s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/share/exomy_sim_msgs/hook/cmake_prefix_path.sh'
+[3.187s] Level 1:colcon.colcon_core.environment:checking '/home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/lib'
+[3.187s] Level 1:colcon.colcon_core.shell:create_environment_hook('exomy_sim_msgs', 'ld_library_path_lib')
+[3.190s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/share/exomy_sim_msgs/hook/ld_library_path_lib.ps1'
+[3.191s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/share/exomy_sim_msgs/hook/ld_library_path_lib.dsv'
+[3.192s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/share/exomy_sim_msgs/hook/ld_library_path_lib.sh'
+[3.193s] Level 1:colcon.colcon_core.environment:checking '/home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/bin'
+[3.193s] Level 1:colcon.colcon_core.environment:checking '/home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/lib/pkgconfig/exomy_sim_msgs.pc'
+[3.194s] Level 1:colcon.colcon_core.environment:checking '/home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/lib/python3.8/site-packages'
+[3.194s] Level 1:colcon.colcon_core.shell:create_environment_hook('exomy_sim_msgs', 'pythonpath')
+[3.197s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/share/exomy_sim_msgs/hook/pythonpath.ps1'
+[3.198s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/share/exomy_sim_msgs/hook/pythonpath.dsv'
+[3.199s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/share/exomy_sim_msgs/hook/pythonpath.sh'
+[3.200s] Level 1:colcon.colcon_core.environment:checking '/home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/bin'
+[3.205s] INFO:colcon.colcon_core.shell:Creating package script '/home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/share/exomy_sim_msgs/package.ps1'
+[3.207s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/share/exomy_sim_msgs/package.dsv'
+[3.208s] INFO:colcon.colcon_core.shell:Creating package script '/home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/share/exomy_sim_msgs/package.sh'
+[3.209s] INFO:colcon.colcon_core.shell:Creating package script '/home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/share/exomy_sim_msgs/package.bash'
+[3.210s] INFO:colcon.colcon_core.shell:Creating package script '/home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/share/exomy_sim_msgs/package.zsh'
+[3.211s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/share/colcon-core/packages/exomy_sim_msgs)
+[3.213s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/thezerdas/exomy/exomy_ws/src/depthimage_to_laserscan-foxy-devel' with build type 'ament_cmake'
+[3.213s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/thezerdas/exomy/exomy_ws/src/depthimage_to_laserscan-foxy-devel'
+[3.217s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.217s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.260s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/thezerdas/exomy/exomy_ws/build/depthimage_to_laserscan': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/thezerdas/exomy/exomy_ws/install/exomy:/opt/ros/foxy /usr/bin/cmake --build /home/thezerdas/exomy/exomy_ws/build/depthimage_to_laserscan -- -j2 -l2
+[3.330s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(exomy_msgs)
+[3.337s] Level 1:colcon.colcon_core.environment:checking '/home/thezerdas/exomy/exomy_ws/install/exomy_msgs' for CMake module files
+[3.339s] Level 1:colcon.colcon_core.environment:checking '/home/thezerdas/exomy/exomy_ws/install/exomy_msgs' for CMake config files
+[3.341s] Level 1:colcon.colcon_core.shell:create_environment_hook('exomy_msgs', 'cmake_prefix_path')
+[3.345s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thezerdas/exomy/exomy_ws/install/exomy_msgs/share/exomy_msgs/hook/cmake_prefix_path.ps1'
+[3.346s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/thezerdas/exomy/exomy_ws/install/exomy_msgs/share/exomy_msgs/hook/cmake_prefix_path.dsv'
+[3.347s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thezerdas/exomy/exomy_ws/install/exomy_msgs/share/exomy_msgs/hook/cmake_prefix_path.sh'
+[3.348s] Level 1:colcon.colcon_core.environment:checking '/home/thezerdas/exomy/exomy_ws/install/exomy_msgs/lib'
+[3.348s] Level 1:colcon.colcon_core.shell:create_environment_hook('exomy_msgs', 'ld_library_path_lib')
+[3.352s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thezerdas/exomy/exomy_ws/install/exomy_msgs/share/exomy_msgs/hook/ld_library_path_lib.ps1'
+[3.353s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/thezerdas/exomy/exomy_ws/install/exomy_msgs/share/exomy_msgs/hook/ld_library_path_lib.dsv'
+[3.354s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thezerdas/exomy/exomy_ws/install/exomy_msgs/share/exomy_msgs/hook/ld_library_path_lib.sh'
+[3.354s] Level 1:colcon.colcon_core.environment:checking '/home/thezerdas/exomy/exomy_ws/install/exomy_msgs/bin'
+[3.355s] Level 1:colcon.colcon_core.environment:checking '/home/thezerdas/exomy/exomy_ws/install/exomy_msgs/lib/pkgconfig/exomy_msgs.pc'
+[3.355s] Level 1:colcon.colcon_core.environment:checking '/home/thezerdas/exomy/exomy_ws/install/exomy_msgs/lib/python3.8/site-packages'
+[3.355s] Level 1:colcon.colcon_core.shell:create_environment_hook('exomy_msgs', 'pythonpath')
+[3.359s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thezerdas/exomy/exomy_ws/install/exomy_msgs/share/exomy_msgs/hook/pythonpath.ps1'
+[3.360s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/thezerdas/exomy/exomy_ws/install/exomy_msgs/share/exomy_msgs/hook/pythonpath.dsv'
+[3.360s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thezerdas/exomy/exomy_ws/install/exomy_msgs/share/exomy_msgs/hook/pythonpath.sh'
+[3.362s] Level 1:colcon.colcon_core.environment:checking '/home/thezerdas/exomy/exomy_ws/install/exomy_msgs/bin'
+[3.368s] INFO:colcon.colcon_core.shell:Creating package script '/home/thezerdas/exomy/exomy_ws/install/exomy_msgs/share/exomy_msgs/package.ps1'
+[3.370s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/thezerdas/exomy/exomy_ws/install/exomy_msgs/share/exomy_msgs/package.dsv'
+[3.371s] INFO:colcon.colcon_core.shell:Creating package script '/home/thezerdas/exomy/exomy_ws/install/exomy_msgs/share/exomy_msgs/package.sh'
+[3.373s] INFO:colcon.colcon_core.shell:Creating package script '/home/thezerdas/exomy/exomy_ws/install/exomy_msgs/share/exomy_msgs/package.bash'
+[3.374s] INFO:colcon.colcon_core.shell:Creating package script '/home/thezerdas/exomy/exomy_ws/install/exomy_msgs/share/exomy_msgs/package.zsh'
+[3.376s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/thezerdas/exomy/exomy_ws/install/exomy_msgs/share/colcon-core/packages/exomy_msgs)
+[3.377s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/thezerdas/exomy/exomy_ws/src/exomy' with build type 'ament_python'
+[3.378s] Level 1:colcon.colcon_core.shell:create_environment_hook('exomy', 'ament_prefix_path')
+[3.381s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thezerdas/exomy/exomy_ws/install/exomy/share/exomy/hook/ament_prefix_path.ps1'
+[3.382s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/thezerdas/exomy/exomy_ws/install/exomy/share/exomy/hook/ament_prefix_path.dsv'
+[3.383s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thezerdas/exomy/exomy_ws/install/exomy/share/exomy/hook/ament_prefix_path.sh'
+[3.388s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.388s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.103s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/thezerdas/exomy/exomy_ws/src/exomy'
+[4.107s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.107s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.134s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/thezerdas/exomy/exomy_ws/build/depthimage_to_laserscan' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/thezerdas/exomy/exomy_ws/install/exomy:/opt/ros/foxy /usr/bin/cmake --build /home/thezerdas/exomy/exomy_ws/build/depthimage_to_laserscan -- -j2 -l2
+[4.209s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/thezerdas/exomy/exomy_ws/build/depthimage_to_laserscan': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/thezerdas/exomy/exomy_ws/install/exomy:/opt/ros/foxy /usr/bin/cmake --install /home/thezerdas/exomy/exomy_ws/build/depthimage_to_laserscan
+[4.269s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(depthimage_to_laserscan)
+[4.275s] Level 1:colcon.colcon_core.environment:checking '/home/thezerdas/exomy/exomy_ws/install/depthimage_to_laserscan' for CMake module files
+[4.276s] Level 1:colcon.colcon_core.environment:checking '/home/thezerdas/exomy/exomy_ws/install/depthimage_to_laserscan' for CMake config files
+[4.277s] Level 1:colcon.colcon_core.shell:create_environment_hook('depthimage_to_laserscan', 'cmake_prefix_path')
+[4.289s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thezerdas/exomy/exomy_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/hook/cmake_prefix_path.ps1'
+[4.291s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/thezerdas/exomy/exomy_ws/build/depthimage_to_laserscan' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/thezerdas/exomy/exomy_ws/install/exomy:/opt/ros/foxy /usr/bin/cmake --install /home/thezerdas/exomy/exomy_ws/build/depthimage_to_laserscan
+[4.293s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/thezerdas/exomy/exomy_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/hook/cmake_prefix_path.dsv'
+[4.293s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thezerdas/exomy/exomy_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/hook/cmake_prefix_path.sh'
+[4.295s] Level 1:colcon.colcon_core.environment:checking '/home/thezerdas/exomy/exomy_ws/install/depthimage_to_laserscan/lib'
+[4.295s] Level 1:colcon.colcon_core.shell:create_environment_hook('depthimage_to_laserscan', 'ld_library_path_lib')
+[4.307s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thezerdas/exomy/exomy_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/hook/ld_library_path_lib.ps1'
+[4.309s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/thezerdas/exomy/exomy_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/hook/ld_library_path_lib.dsv'
+[4.310s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thezerdas/exomy/exomy_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/hook/ld_library_path_lib.sh'
+[4.311s] Level 1:colcon.colcon_core.environment:checking '/home/thezerdas/exomy/exomy_ws/install/depthimage_to_laserscan/bin'
+[4.311s] Level 1:colcon.colcon_core.environment:checking '/home/thezerdas/exomy/exomy_ws/install/depthimage_to_laserscan/lib/pkgconfig/depthimage_to_laserscan.pc'
+[4.312s] Level 1:colcon.colcon_core.environment:checking '/home/thezerdas/exomy/exomy_ws/install/depthimage_to_laserscan/lib/python3.8/site-packages'
+[4.316s] Level 1:colcon.colcon_core.environment:checking '/home/thezerdas/exomy/exomy_ws/install/depthimage_to_laserscan/bin'
+[4.321s] INFO:colcon.colcon_core.shell:Creating package script '/home/thezerdas/exomy/exomy_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/package.ps1'
+[4.333s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/thezerdas/exomy/exomy_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/package.dsv'
+[4.334s] INFO:colcon.colcon_core.shell:Creating package script '/home/thezerdas/exomy/exomy_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/package.sh'
+[4.335s] INFO:colcon.colcon_core.shell:Creating package script '/home/thezerdas/exomy/exomy_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/package.bash'
+[4.335s] INFO:colcon.colcon_core.shell:Creating package script '/home/thezerdas/exomy/exomy_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/package.zsh'
+[4.336s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/thezerdas/exomy/exomy_ws/install/depthimage_to_laserscan/share/colcon-core/packages/depthimage_to_laserscan)
+[4.437s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(depthimage_to_laserscan)
+[4.443s] Level 1:colcon.colcon_core.environment:checking '/home/thezerdas/exomy/exomy_ws/install/depthimage_to_laserscan' for CMake module files
+[4.445s] Level 1:colcon.colcon_core.environment:checking '/home/thezerdas/exomy/exomy_ws/install/depthimage_to_laserscan' for CMake config files
+[4.446s] Level 1:colcon.colcon_core.shell:create_environment_hook('depthimage_to_laserscan', 'cmake_prefix_path')
+[4.449s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thezerdas/exomy/exomy_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/hook/cmake_prefix_path.ps1'
+[4.452s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/thezerdas/exomy/exomy_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/hook/cmake_prefix_path.dsv'
+[4.454s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thezerdas/exomy/exomy_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/hook/cmake_prefix_path.sh'
+[4.457s] Level 1:colcon.colcon_core.environment:checking '/home/thezerdas/exomy/exomy_ws/install/depthimage_to_laserscan/lib'
+[4.457s] Level 1:colcon.colcon_core.shell:create_environment_hook('depthimage_to_laserscan', 'ld_library_path_lib')
+[4.461s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thezerdas/exomy/exomy_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/hook/ld_library_path_lib.ps1'
+[4.463s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/thezerdas/exomy/exomy_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/hook/ld_library_path_lib.dsv'
+[4.465s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thezerdas/exomy/exomy_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/hook/ld_library_path_lib.sh'
+[4.467s] Level 1:colcon.colcon_core.environment:checking '/home/thezerdas/exomy/exomy_ws/install/depthimage_to_laserscan/bin'
+[4.467s] Level 1:colcon.colcon_core.environment:checking '/home/thezerdas/exomy/exomy_ws/install/depthimage_to_laserscan/lib/pkgconfig/depthimage_to_laserscan.pc'
+[4.468s] Level 1:colcon.colcon_core.environment:checking '/home/thezerdas/exomy/exomy_ws/install/depthimage_to_laserscan/lib/python3.8/site-packages'
+[4.469s] Level 1:colcon.colcon_core.environment:checking '/home/thezerdas/exomy/exomy_ws/install/depthimage_to_laserscan/bin'
+[4.473s] INFO:colcon.colcon_core.shell:Creating package script '/home/thezerdas/exomy/exomy_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/package.ps1'
+[4.475s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/thezerdas/exomy/exomy_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/package.dsv'
+[4.478s] INFO:colcon.colcon_core.shell:Creating package script '/home/thezerdas/exomy/exomy_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/package.sh'
+[4.481s] INFO:colcon.colcon_core.shell:Creating package script '/home/thezerdas/exomy/exomy_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/package.bash'
+[4.483s] INFO:colcon.colcon_core.shell:Creating package script '/home/thezerdas/exomy/exomy_ws/install/depthimage_to_laserscan/share/depthimage_to_laserscan/package.zsh'
+[4.485s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/thezerdas/exomy/exomy_ws/install/depthimage_to_laserscan/share/colcon-core/packages/depthimage_to_laserscan)
+[4.487s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/thezerdas/exomy/exomy_ws/src/exomy_sim' with build type 'ament_cmake'
+[4.488s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/thezerdas/exomy/exomy_ws/src/exomy_sim'
+[4.498s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.498s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.557s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/thezerdas/exomy/exomy_ws/build/exomy_sim': CMAKE_PREFIX_PATH=/home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs:/home/thezerdas/exomy/exomy_ws/install/exomy_msgs:/home/thezerdas/exomy/exomy_ws/install/rover_gazebo_plugins:/home/thezerdas/exomy/exomy_ws/install/exomy_sim_launch:/home/thezerdas/exomy/exomy_ws/install/exomy_sim:/home/thezerdas/exomy/exomy_ws/install/depthimage_to_laserscan:/home/thezerdas/ros2_ws/install/realsense2_description:/home/thezerdas/ros2_ws/install/realsense2_camera_msgs:/home/thezerdas/exomy/exomy_ws/install/exomy:/opt/ros/foxy LD_LIBRARY_PATH=/home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/lib:/home/thezerdas/exomy/exomy_ws/install/exomy_msgs/lib:/home/thezerdas/exomy/exomy_ws/install/rover_gazebo_plugins/lib:/home/thezerdas/exomy/exomy_ws/install/depthimage_to_laserscan/lib:/home/thezerdas/ros2_ws/install/realsense2_camera_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/lib/python3.8/site-packages:/home/thezerdas/exomy/exomy_ws/install/exomy_msgs/lib/python3.8/site-packages:/home/thezerdas/exomy/exomy_ws/build/exomy:/home/thezerdas/exomy/exomy_ws/install/exomy/lib/python3.8/site-packages:/home/thezerdas/ros2_ws/install/realsense2_camera_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/thezerdas/exomy/exomy_ws/build/exomy_sim -- -j2 -l2
+[4.738s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/thezerdas/exomy/exomy_ws/build/exomy_sim' returned '0': CMAKE_PREFIX_PATH=/home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs:/home/thezerdas/exomy/exomy_ws/install/exomy_msgs:/home/thezerdas/exomy/exomy_ws/install/rover_gazebo_plugins:/home/thezerdas/exomy/exomy_ws/install/exomy_sim_launch:/home/thezerdas/exomy/exomy_ws/install/exomy_sim:/home/thezerdas/exomy/exomy_ws/install/depthimage_to_laserscan:/home/thezerdas/ros2_ws/install/realsense2_description:/home/thezerdas/ros2_ws/install/realsense2_camera_msgs:/home/thezerdas/exomy/exomy_ws/install/exomy:/opt/ros/foxy LD_LIBRARY_PATH=/home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/lib:/home/thezerdas/exomy/exomy_ws/install/exomy_msgs/lib:/home/thezerdas/exomy/exomy_ws/install/rover_gazebo_plugins/lib:/home/thezerdas/exomy/exomy_ws/install/depthimage_to_laserscan/lib:/home/thezerdas/ros2_ws/install/realsense2_camera_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/lib/python3.8/site-packages:/home/thezerdas/exomy/exomy_ws/install/exomy_msgs/lib/python3.8/site-packages:/home/thezerdas/exomy/exomy_ws/build/exomy:/home/thezerdas/exomy/exomy_ws/install/exomy/lib/python3.8/site-packages:/home/thezerdas/ros2_ws/install/realsense2_camera_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/thezerdas/exomy/exomy_ws/build/exomy_sim -- -j2 -l2
+[4.799s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/thezerdas/exomy/exomy_ws/build/exomy_sim': CMAKE_PREFIX_PATH=/home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs:/home/thezerdas/exomy/exomy_ws/install/exomy_msgs:/home/thezerdas/exomy/exomy_ws/install/rover_gazebo_plugins:/home/thezerdas/exomy/exomy_ws/install/exomy_sim_launch:/home/thezerdas/exomy/exomy_ws/install/exomy_sim:/home/thezerdas/exomy/exomy_ws/install/depthimage_to_laserscan:/home/thezerdas/ros2_ws/install/realsense2_description:/home/thezerdas/ros2_ws/install/realsense2_camera_msgs:/home/thezerdas/exomy/exomy_ws/install/exomy:/opt/ros/foxy LD_LIBRARY_PATH=/home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/lib:/home/thezerdas/exomy/exomy_ws/install/exomy_msgs/lib:/home/thezerdas/exomy/exomy_ws/install/rover_gazebo_plugins/lib:/home/thezerdas/exomy/exomy_ws/install/depthimage_to_laserscan/lib:/home/thezerdas/ros2_ws/install/realsense2_camera_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/lib/python3.8/site-packages:/home/thezerdas/exomy/exomy_ws/install/exomy_msgs/lib/python3.8/site-packages:/home/thezerdas/exomy/exomy_ws/build/exomy:/home/thezerdas/exomy/exomy_ws/install/exomy/lib/python3.8/site-packages:/home/thezerdas/ros2_ws/install/realsense2_camera_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/thezerdas/exomy/exomy_ws/build/exomy_sim
+[4.902s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(exomy_sim)
+[4.908s] Level 1:colcon.colcon_core.environment:checking '/home/thezerdas/exomy/exomy_ws/install/exomy_sim' for CMake module files
+[4.908s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/thezerdas/exomy/exomy_ws/build/exomy_sim' returned '0': CMAKE_PREFIX_PATH=/home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs:/home/thezerdas/exomy/exomy_ws/install/exomy_msgs:/home/thezerdas/exomy/exomy_ws/install/rover_gazebo_plugins:/home/thezerdas/exomy/exomy_ws/install/exomy_sim_launch:/home/thezerdas/exomy/exomy_ws/install/exomy_sim:/home/thezerdas/exomy/exomy_ws/install/depthimage_to_laserscan:/home/thezerdas/ros2_ws/install/realsense2_description:/home/thezerdas/ros2_ws/install/realsense2_camera_msgs:/home/thezerdas/exomy/exomy_ws/install/exomy:/opt/ros/foxy LD_LIBRARY_PATH=/home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/lib:/home/thezerdas/exomy/exomy_ws/install/exomy_msgs/lib:/home/thezerdas/exomy/exomy_ws/install/rover_gazebo_plugins/lib:/home/thezerdas/exomy/exomy_ws/install/depthimage_to_laserscan/lib:/home/thezerdas/ros2_ws/install/realsense2_camera_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/lib/python3.8/site-packages:/home/thezerdas/exomy/exomy_ws/install/exomy_msgs/lib/python3.8/site-packages:/home/thezerdas/exomy/exomy_ws/build/exomy:/home/thezerdas/exomy/exomy_ws/install/exomy/lib/python3.8/site-packages:/home/thezerdas/ros2_ws/install/realsense2_camera_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/thezerdas/exomy/exomy_ws/build/exomy_sim
+[4.914s] Level 1:colcon.colcon_core.environment:checking '/home/thezerdas/exomy/exomy_ws/install/exomy_sim' for CMake config files
+[4.914s] Level 1:colcon.colcon_core.shell:create_environment_hook('exomy_sim', 'cmake_prefix_path')
+[4.919s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/hook/cmake_prefix_path.ps1'
+[4.928s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/hook/cmake_prefix_path.dsv'
+[4.929s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/hook/cmake_prefix_path.sh'
+[4.931s] Level 1:colcon.colcon_core.environment:checking '/home/thezerdas/exomy/exomy_ws/install/exomy_sim/lib'
+[4.931s] Level 1:colcon.colcon_core.environment:checking '/home/thezerdas/exomy/exomy_ws/install/exomy_sim/bin'
+[4.931s] Level 1:colcon.colcon_core.environment:checking '/home/thezerdas/exomy/exomy_ws/install/exomy_sim/lib/pkgconfig/exomy_sim.pc'
+[4.932s] Level 1:colcon.colcon_core.environment:checking '/home/thezerdas/exomy/exomy_ws/install/exomy_sim/lib/python3.8/site-packages'
+[4.933s] Level 1:colcon.colcon_core.environment:checking '/home/thezerdas/exomy/exomy_ws/install/exomy_sim/bin'
+[4.936s] INFO:colcon.colcon_core.shell:Creating package script '/home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/package.ps1'
+[4.948s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/package.dsv'
+[4.949s] INFO:colcon.colcon_core.shell:Creating package script '/home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/package.sh'
+[4.950s] INFO:colcon.colcon_core.shell:Creating package script '/home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/package.bash'
+[4.951s] INFO:colcon.colcon_core.shell:Creating package script '/home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/package.zsh'
+[4.952s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/colcon-core/packages/exomy_sim)
+[5.045s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(exomy_sim)
+[5.051s] Level 1:colcon.colcon_core.environment:checking '/home/thezerdas/exomy/exomy_ws/install/exomy_sim' for CMake module files
+[5.053s] Level 1:colcon.colcon_core.environment:checking '/home/thezerdas/exomy/exomy_ws/install/exomy_sim' for CMake config files
+[5.054s] Level 1:colcon.colcon_core.shell:create_environment_hook('exomy_sim', 'cmake_prefix_path')
+[5.070s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/hook/cmake_prefix_path.ps1'
+[5.072s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/hook/cmake_prefix_path.dsv'
+[5.074s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/hook/cmake_prefix_path.sh'
+[5.077s] Level 1:colcon.colcon_core.environment:checking '/home/thezerdas/exomy/exomy_ws/install/exomy_sim/lib'
+[5.077s] Level 1:colcon.colcon_core.environment:checking '/home/thezerdas/exomy/exomy_ws/install/exomy_sim/bin'
+[5.079s] Level 1:colcon.colcon_core.environment:checking '/home/thezerdas/exomy/exomy_ws/install/exomy_sim/lib/pkgconfig/exomy_sim.pc'
+[5.080s] Level 1:colcon.colcon_core.environment:checking '/home/thezerdas/exomy/exomy_ws/install/exomy_sim/lib/python3.8/site-packages'
+[5.084s] Level 1:colcon.colcon_core.environment:checking '/home/thezerdas/exomy/exomy_ws/install/exomy_sim/bin'
+[5.088s] INFO:colcon.colcon_core.shell:Creating package script '/home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/package.ps1'
+[5.093s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/package.dsv'
+[5.095s] INFO:colcon.colcon_core.shell:Creating package script '/home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/package.sh'
+[5.097s] INFO:colcon.colcon_core.shell:Creating package script '/home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/package.bash'
+[5.100s] INFO:colcon.colcon_core.shell:Creating package script '/home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/package.zsh'
+[5.102s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/colcon-core/packages/exomy_sim)
+[5.106s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/thezerdas/exomy/exomy_ws/src/rover_gazebo_plugins' with build type 'ament_cmake'
+[5.108s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/thezerdas/exomy/exomy_ws/src/rover_gazebo_plugins'
+[5.112s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.113s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.172s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/thezerdas/exomy/exomy_ws/build/rover_gazebo_plugins': CMAKE_PREFIX_PATH=/home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs:/home/thezerdas/exomy/exomy_ws/install/rover_gazebo_plugins:/home/thezerdas/exomy/exomy_ws/install/exomy_sim_launch:/home/thezerdas/exomy/exomy_ws/install/exomy_sim:/home/thezerdas/exomy/exomy_ws/install/exomy_msgs:/home/thezerdas/exomy/exomy_ws/install/depthimage_to_laserscan:/home/thezerdas/ros2_ws/install/realsense2_description:/home/thezerdas/ros2_ws/install/realsense2_camera_msgs:/home/thezerdas/exomy/exomy_ws/install/exomy:/opt/ros/foxy LD_LIBRARY_PATH=/home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/lib:/home/thezerdas/exomy/exomy_ws/install/rover_gazebo_plugins/lib:/home/thezerdas/exomy/exomy_ws/install/exomy_msgs/lib:/home/thezerdas/exomy/exomy_ws/install/depthimage_to_laserscan/lib:/home/thezerdas/ros2_ws/install/realsense2_camera_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib /usr/bin/cmake --build /home/thezerdas/exomy/exomy_ws/build/rover_gazebo_plugins -- -j2 -l2
+[5.451s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/thezerdas/exomy/exomy_ws/build/rover_gazebo_plugins' returned '0': CMAKE_PREFIX_PATH=/home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs:/home/thezerdas/exomy/exomy_ws/install/rover_gazebo_plugins:/home/thezerdas/exomy/exomy_ws/install/exomy_sim_launch:/home/thezerdas/exomy/exomy_ws/install/exomy_sim:/home/thezerdas/exomy/exomy_ws/install/exomy_msgs:/home/thezerdas/exomy/exomy_ws/install/depthimage_to_laserscan:/home/thezerdas/ros2_ws/install/realsense2_description:/home/thezerdas/ros2_ws/install/realsense2_camera_msgs:/home/thezerdas/exomy/exomy_ws/install/exomy:/opt/ros/foxy LD_LIBRARY_PATH=/home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/lib:/home/thezerdas/exomy/exomy_ws/install/rover_gazebo_plugins/lib:/home/thezerdas/exomy/exomy_ws/install/exomy_msgs/lib:/home/thezerdas/exomy/exomy_ws/install/depthimage_to_laserscan/lib:/home/thezerdas/ros2_ws/install/realsense2_camera_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib /usr/bin/cmake --build /home/thezerdas/exomy/exomy_ws/build/rover_gazebo_plugins -- -j2 -l2
+[5.529s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/thezerdas/exomy/exomy_ws/build/rover_gazebo_plugins': CMAKE_PREFIX_PATH=/home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs:/home/thezerdas/exomy/exomy_ws/install/rover_gazebo_plugins:/home/thezerdas/exomy/exomy_ws/install/exomy_sim_launch:/home/thezerdas/exomy/exomy_ws/install/exomy_sim:/home/thezerdas/exomy/exomy_ws/install/exomy_msgs:/home/thezerdas/exomy/exomy_ws/install/depthimage_to_laserscan:/home/thezerdas/ros2_ws/install/realsense2_description:/home/thezerdas/ros2_ws/install/realsense2_camera_msgs:/home/thezerdas/exomy/exomy_ws/install/exomy:/opt/ros/foxy LD_LIBRARY_PATH=/home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/lib:/home/thezerdas/exomy/exomy_ws/install/rover_gazebo_plugins/lib:/home/thezerdas/exomy/exomy_ws/install/exomy_msgs/lib:/home/thezerdas/exomy/exomy_ws/install/depthimage_to_laserscan/lib:/home/thezerdas/ros2_ws/install/realsense2_camera_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib /usr/bin/cmake --install /home/thezerdas/exomy/exomy_ws/build/rover_gazebo_plugins
+[5.619s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rover_gazebo_plugins)
+[5.625s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/thezerdas/exomy/exomy_ws/build/rover_gazebo_plugins' returned '0': CMAKE_PREFIX_PATH=/home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs:/home/thezerdas/exomy/exomy_ws/install/rover_gazebo_plugins:/home/thezerdas/exomy/exomy_ws/install/exomy_sim_launch:/home/thezerdas/exomy/exomy_ws/install/exomy_sim:/home/thezerdas/exomy/exomy_ws/install/exomy_msgs:/home/thezerdas/exomy/exomy_ws/install/depthimage_to_laserscan:/home/thezerdas/ros2_ws/install/realsense2_description:/home/thezerdas/ros2_ws/install/realsense2_camera_msgs:/home/thezerdas/exomy/exomy_ws/install/exomy:/opt/ros/foxy LD_LIBRARY_PATH=/home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/lib:/home/thezerdas/exomy/exomy_ws/install/rover_gazebo_plugins/lib:/home/thezerdas/exomy/exomy_ws/install/exomy_msgs/lib:/home/thezerdas/exomy/exomy_ws/install/depthimage_to_laserscan/lib:/home/thezerdas/ros2_ws/install/realsense2_camera_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib /usr/bin/cmake --install /home/thezerdas/exomy/exomy_ws/build/rover_gazebo_plugins
+[5.628s] Level 1:colcon.colcon_core.environment:checking '/home/thezerdas/exomy/exomy_ws/install/rover_gazebo_plugins' for CMake module files
+[5.629s] Level 1:colcon.colcon_core.environment:checking '/home/thezerdas/exomy/exomy_ws/install/rover_gazebo_plugins' for CMake config files
+[5.629s] Level 1:colcon.colcon_core.shell:create_environment_hook('rover_gazebo_plugins', 'cmake_prefix_path')
+[5.634s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thezerdas/exomy/exomy_ws/install/rover_gazebo_plugins/share/rover_gazebo_plugins/hook/cmake_prefix_path.ps1'
+[5.636s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/thezerdas/exomy/exomy_ws/install/rover_gazebo_plugins/share/rover_gazebo_plugins/hook/cmake_prefix_path.dsv'
+[5.639s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thezerdas/exomy/exomy_ws/install/rover_gazebo_plugins/share/rover_gazebo_plugins/hook/cmake_prefix_path.sh'
+[5.641s] Level 1:colcon.colcon_core.environment:checking '/home/thezerdas/exomy/exomy_ws/install/rover_gazebo_plugins/lib'
+[5.642s] Level 1:colcon.colcon_core.shell:create_environment_hook('rover_gazebo_plugins', 'ld_library_path_lib')
+[5.646s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thezerdas/exomy/exomy_ws/install/rover_gazebo_plugins/share/rover_gazebo_plugins/hook/ld_library_path_lib.ps1'
+[5.648s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/thezerdas/exomy/exomy_ws/install/rover_gazebo_plugins/share/rover_gazebo_plugins/hook/ld_library_path_lib.dsv'
+[5.650s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thezerdas/exomy/exomy_ws/install/rover_gazebo_plugins/share/rover_gazebo_plugins/hook/ld_library_path_lib.sh'
+[5.652s] Level 1:colcon.colcon_core.environment:checking '/home/thezerdas/exomy/exomy_ws/install/rover_gazebo_plugins/bin'
+[5.653s] Level 1:colcon.colcon_core.environment:checking '/home/thezerdas/exomy/exomy_ws/install/rover_gazebo_plugins/lib/pkgconfig/rover_gazebo_plugins.pc'
+[5.653s] Level 1:colcon.colcon_core.environment:checking '/home/thezerdas/exomy/exomy_ws/install/rover_gazebo_plugins/lib/python3.8/site-packages'
+[5.654s] Level 1:colcon.colcon_core.environment:checking '/home/thezerdas/exomy/exomy_ws/install/rover_gazebo_plugins/bin'
+[5.658s] INFO:colcon.colcon_core.shell:Creating package script '/home/thezerdas/exomy/exomy_ws/install/rover_gazebo_plugins/share/rover_gazebo_plugins/package.ps1'
+[5.660s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/thezerdas/exomy/exomy_ws/install/rover_gazebo_plugins/share/rover_gazebo_plugins/package.dsv'
+[5.663s] INFO:colcon.colcon_core.shell:Creating package script '/home/thezerdas/exomy/exomy_ws/install/rover_gazebo_plugins/share/rover_gazebo_plugins/package.sh'
+[5.665s] INFO:colcon.colcon_core.shell:Creating package script '/home/thezerdas/exomy/exomy_ws/install/rover_gazebo_plugins/share/rover_gazebo_plugins/package.bash'
+[5.667s] INFO:colcon.colcon_core.shell:Creating package script '/home/thezerdas/exomy/exomy_ws/install/rover_gazebo_plugins/share/rover_gazebo_plugins/package.zsh'
+[5.669s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/thezerdas/exomy/exomy_ws/install/rover_gazebo_plugins/share/colcon-core/packages/rover_gazebo_plugins)
+[5.679s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/thezerdas/exomy/exomy_ws/build/exomy': CMAKE_PREFIX_PATH=/home/thezerdas/exomy/exomy_ws/install/exomy_msgs:/home/thezerdas/exomy/exomy_ws/install/rover_gazebo_plugins:/home/thezerdas/exomy/exomy_ws/install/exomy_sim_launch:/home/thezerdas/exomy/exomy_ws/install/exomy_sim:/home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs:/home/thezerdas/exomy/exomy_ws/install/depthimage_to_laserscan:/home/thezerdas/ros2_ws/install/realsense2_description:/home/thezerdas/ros2_ws/install/realsense2_camera_msgs LD_LIBRARY_PATH=/home/thezerdas/exomy/exomy_ws/install/exomy_msgs/lib:/home/thezerdas/exomy/exomy_ws/install/rover_gazebo_plugins/lib:/home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/lib:/home/thezerdas/exomy/exomy_ws/install/depthimage_to_laserscan/lib:/home/thezerdas/ros2_ws/install/realsense2_camera_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/thezerdas/exomy/exomy_ws/build/exomy/prefix_override:/home/thezerdas/exomy/exomy_ws/install/exomy/lib/python3.8/site-packages:/home/thezerdas/exomy/exomy_ws/install/exomy_msgs/lib/python3.8/site-packages:/home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/lib/python3.8/site-packages:/home/thezerdas/exomy/exomy_ws/build/exomy:/home/thezerdas/exomy/exomy_ws/install/exomy/lib/python3.8/site-packages:/home/thezerdas/ros2_ws/install/realsense2_camera_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py develop --editable --build-directory /home/thezerdas/exomy/exomy_ws/build/exomy/build --no-deps install_data
+[5.727s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rover_gazebo_plugins)
+[5.733s] Level 1:colcon.colcon_core.environment:checking '/home/thezerdas/exomy/exomy_ws/install/rover_gazebo_plugins' for CMake module files
+[5.734s] Level 1:colcon.colcon_core.environment:checking '/home/thezerdas/exomy/exomy_ws/install/rover_gazebo_plugins' for CMake config files
+[5.734s] Level 1:colcon.colcon_core.shell:create_environment_hook('rover_gazebo_plugins', 'cmake_prefix_path')
+[5.737s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thezerdas/exomy/exomy_ws/install/rover_gazebo_plugins/share/rover_gazebo_plugins/hook/cmake_prefix_path.ps1'
+[5.739s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/thezerdas/exomy/exomy_ws/install/rover_gazebo_plugins/share/rover_gazebo_plugins/hook/cmake_prefix_path.dsv'
+[5.740s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thezerdas/exomy/exomy_ws/install/rover_gazebo_plugins/share/rover_gazebo_plugins/hook/cmake_prefix_path.sh'
+[5.741s] Level 1:colcon.colcon_core.environment:checking '/home/thezerdas/exomy/exomy_ws/install/rover_gazebo_plugins/lib'
+[5.742s] Level 1:colcon.colcon_core.shell:create_environment_hook('rover_gazebo_plugins', 'ld_library_path_lib')
+[5.745s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thezerdas/exomy/exomy_ws/install/rover_gazebo_plugins/share/rover_gazebo_plugins/hook/ld_library_path_lib.ps1'
+[5.746s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/thezerdas/exomy/exomy_ws/install/rover_gazebo_plugins/share/rover_gazebo_plugins/hook/ld_library_path_lib.dsv'
+[5.747s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thezerdas/exomy/exomy_ws/install/rover_gazebo_plugins/share/rover_gazebo_plugins/hook/ld_library_path_lib.sh'
+[5.748s] Level 1:colcon.colcon_core.environment:checking '/home/thezerdas/exomy/exomy_ws/install/rover_gazebo_plugins/bin'
+[5.748s] Level 1:colcon.colcon_core.environment:checking '/home/thezerdas/exomy/exomy_ws/install/rover_gazebo_plugins/lib/pkgconfig/rover_gazebo_plugins.pc'
+[5.748s] Level 1:colcon.colcon_core.environment:checking '/home/thezerdas/exomy/exomy_ws/install/rover_gazebo_plugins/lib/python3.8/site-packages'
+[5.749s] Level 1:colcon.colcon_core.environment:checking '/home/thezerdas/exomy/exomy_ws/install/rover_gazebo_plugins/bin'
+[5.752s] INFO:colcon.colcon_core.shell:Creating package script '/home/thezerdas/exomy/exomy_ws/install/rover_gazebo_plugins/share/rover_gazebo_plugins/package.ps1'
+[5.754s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/thezerdas/exomy/exomy_ws/install/rover_gazebo_plugins/share/rover_gazebo_plugins/package.dsv'
+[5.755s] INFO:colcon.colcon_core.shell:Creating package script '/home/thezerdas/exomy/exomy_ws/install/rover_gazebo_plugins/share/rover_gazebo_plugins/package.sh'
+[5.756s] INFO:colcon.colcon_core.shell:Creating package script '/home/thezerdas/exomy/exomy_ws/install/rover_gazebo_plugins/share/rover_gazebo_plugins/package.bash'
+[5.757s] INFO:colcon.colcon_core.shell:Creating package script '/home/thezerdas/exomy/exomy_ws/install/rover_gazebo_plugins/share/rover_gazebo_plugins/package.zsh'
+[5.758s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/thezerdas/exomy/exomy_ws/install/rover_gazebo_plugins/share/colcon-core/packages/rover_gazebo_plugins)
+[6.818s] Level 1:colcon.colcon_core.shell:create_environment_hook('exomy', 'pythonpath_develop')
+[6.818s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/thezerdas/exomy/exomy_ws/build/exomy' returned '0': CMAKE_PREFIX_PATH=/home/thezerdas/exomy/exomy_ws/install/exomy_msgs:/home/thezerdas/exomy/exomy_ws/install/rover_gazebo_plugins:/home/thezerdas/exomy/exomy_ws/install/exomy_sim_launch:/home/thezerdas/exomy/exomy_ws/install/exomy_sim:/home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs:/home/thezerdas/exomy/exomy_ws/install/depthimage_to_laserscan:/home/thezerdas/ros2_ws/install/realsense2_description:/home/thezerdas/ros2_ws/install/realsense2_camera_msgs LD_LIBRARY_PATH=/home/thezerdas/exomy/exomy_ws/install/exomy_msgs/lib:/home/thezerdas/exomy/exomy_ws/install/rover_gazebo_plugins/lib:/home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/lib:/home/thezerdas/exomy/exomy_ws/install/depthimage_to_laserscan/lib:/home/thezerdas/ros2_ws/install/realsense2_camera_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/thezerdas/exomy/exomy_ws/build/exomy/prefix_override:/home/thezerdas/exomy/exomy_ws/install/exomy/lib/python3.8/site-packages:/home/thezerdas/exomy/exomy_ws/install/exomy_msgs/lib/python3.8/site-packages:/home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/lib/python3.8/site-packages:/home/thezerdas/exomy/exomy_ws/build/exomy:/home/thezerdas/exomy/exomy_ws/install/exomy/lib/python3.8/site-packages:/home/thezerdas/ros2_ws/install/realsense2_camera_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py develop --editable --build-directory /home/thezerdas/exomy/exomy_ws/build/exomy/build --no-deps install_data
+[6.823s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thezerdas/exomy/exomy_ws/build/exomy/share/exomy/hook/pythonpath_develop.ps1'
+[6.825s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/thezerdas/exomy/exomy_ws/build/exomy/share/exomy/hook/pythonpath_develop.dsv'
+[6.825s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thezerdas/exomy/exomy_ws/build/exomy/share/exomy/hook/pythonpath_develop.sh'
+[6.831s] Level 1:colcon.colcon_core.environment:checking '/home/thezerdas/exomy/exomy_ws/install/exomy' for CMake module files
+[6.833s] Level 1:colcon.colcon_core.environment:checking '/home/thezerdas/exomy/exomy_ws/install/exomy' for CMake config files
+[6.833s] Level 1:colcon.colcon_core.environment:checking '/home/thezerdas/exomy/exomy_ws/install/exomy/lib'
+[6.834s] Level 1:colcon.colcon_core.environment:checking '/home/thezerdas/exomy/exomy_ws/install/exomy/bin'
+[6.834s] Level 1:colcon.colcon_core.environment:checking '/home/thezerdas/exomy/exomy_ws/install/exomy/lib/pkgconfig/exomy.pc'
+[6.834s] Level 1:colcon.colcon_core.environment:checking '/home/thezerdas/exomy/exomy_ws/install/exomy/lib/python3.8/site-packages'
+[6.834s] Level 1:colcon.colcon_core.shell:create_environment_hook('exomy', 'pythonpath')
+[6.838s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thezerdas/exomy/exomy_ws/install/exomy/share/exomy/hook/pythonpath.ps1'
+[6.839s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/thezerdas/exomy/exomy_ws/install/exomy/share/exomy/hook/pythonpath.dsv'
+[6.841s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thezerdas/exomy/exomy_ws/install/exomy/share/exomy/hook/pythonpath.sh'
+[6.842s] Level 1:colcon.colcon_core.environment:checking '/home/thezerdas/exomy/exomy_ws/install/exomy/bin'
+[6.843s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(exomy)
+[6.846s] INFO:colcon.colcon_core.shell:Creating package script '/home/thezerdas/exomy/exomy_ws/install/exomy/share/exomy/package.ps1'
+[6.848s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/thezerdas/exomy/exomy_ws/install/exomy/share/exomy/package.dsv'
+[6.849s] INFO:colcon.colcon_core.shell:Creating package script '/home/thezerdas/exomy/exomy_ws/install/exomy/share/exomy/package.sh'
+[6.850s] INFO:colcon.colcon_core.shell:Creating package script '/home/thezerdas/exomy/exomy_ws/install/exomy/share/exomy/package.bash'
+[6.851s] INFO:colcon.colcon_core.shell:Creating package script '/home/thezerdas/exomy/exomy_ws/install/exomy/share/exomy/package.zsh'
+[6.852s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/thezerdas/exomy/exomy_ws/install/exomy/share/colcon-core/packages/exomy)
+[6.853s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/thezerdas/exomy/exomy_ws/src/exomy_sim_launch' with build type 'ament_cmake'
+[6.853s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/thezerdas/exomy/exomy_ws/src/exomy_sim_launch'
+[6.857s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.857s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.930s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/thezerdas/exomy/exomy_ws/build/exomy_sim_launch': AMENT_PREFIX_PATH=/home/thezerdas/exomy/exomy_ws/install/exomy:/home/thezerdas/exomy/exomy_ws/install/rover_gazebo_plugins:/home/thezerdas/exomy/exomy_ws/install/exomy_sim_launch:/home/thezerdas/exomy/exomy_ws/install/exomy_sim:/home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs:/home/thezerdas/exomy/exomy_ws/install/exomy_msgs:/home/thezerdas/exomy/exomy_ws/install/depthimage_to_laserscan:/home/thezerdas/ros2_ws/install/realsense2_description:/home/thezerdas/ros2_ws/install/realsense2_camera_msgs:/opt/ros/foxy CMAKE_PREFIX_PATH=/home/thezerdas/exomy/exomy_ws/install/exomy_sim:/home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs:/home/thezerdas/exomy/exomy_ws/install/exomy_msgs:/home/thezerdas/exomy/exomy_ws/install/rover_gazebo_plugins:/home/thezerdas/exomy/exomy_ws/install/exomy_sim_launch:/home/thezerdas/exomy/exomy_ws/install/depthimage_to_laserscan:/home/thezerdas/ros2_ws/install/realsense2_description:/home/thezerdas/ros2_ws/install/realsense2_camera_msgs:/home/thezerdas/exomy/exomy_ws/install/exomy:/opt/ros/foxy GAZEBO_RESOURCE_PATH=/home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/worlds:${GAZEBO_RESOURCE_PATH} LD_LIBRARY_PATH=/home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/lib:/home/thezerdas/exomy/exomy_ws/install/exomy_msgs/lib:/home/thezerdas/exomy/exomy_ws/install/rover_gazebo_plugins/lib:/home/thezerdas/exomy/exomy_ws/install/depthimage_to_laserscan/lib:/home/thezerdas/ros2_ws/install/realsense2_camera_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/thezerdas/exomy/exomy_ws/build/exomy:/home/thezerdas/exomy/exomy_ws/install/exomy/lib/python3.8/site-packages:/home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/lib/python3.8/site-packages:/home/thezerdas/exomy/exomy_ws/install/exomy_msgs/lib/python3.8/site-packages:/home/thezerdas/ros2_ws/install/realsense2_camera_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/thezerdas/exomy/exomy_ws/build/exomy_sim_launch -- -j2 -l2
+[7.018s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/thezerdas/exomy/exomy_ws/build/exomy_sim_launch' returned '0': AMENT_PREFIX_PATH=/home/thezerdas/exomy/exomy_ws/install/exomy:/home/thezerdas/exomy/exomy_ws/install/rover_gazebo_plugins:/home/thezerdas/exomy/exomy_ws/install/exomy_sim_launch:/home/thezerdas/exomy/exomy_ws/install/exomy_sim:/home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs:/home/thezerdas/exomy/exomy_ws/install/exomy_msgs:/home/thezerdas/exomy/exomy_ws/install/depthimage_to_laserscan:/home/thezerdas/ros2_ws/install/realsense2_description:/home/thezerdas/ros2_ws/install/realsense2_camera_msgs:/opt/ros/foxy CMAKE_PREFIX_PATH=/home/thezerdas/exomy/exomy_ws/install/exomy_sim:/home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs:/home/thezerdas/exomy/exomy_ws/install/exomy_msgs:/home/thezerdas/exomy/exomy_ws/install/rover_gazebo_plugins:/home/thezerdas/exomy/exomy_ws/install/exomy_sim_launch:/home/thezerdas/exomy/exomy_ws/install/depthimage_to_laserscan:/home/thezerdas/ros2_ws/install/realsense2_description:/home/thezerdas/ros2_ws/install/realsense2_camera_msgs:/home/thezerdas/exomy/exomy_ws/install/exomy:/opt/ros/foxy GAZEBO_RESOURCE_PATH=/home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/worlds:${GAZEBO_RESOURCE_PATH} LD_LIBRARY_PATH=/home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/lib:/home/thezerdas/exomy/exomy_ws/install/exomy_msgs/lib:/home/thezerdas/exomy/exomy_ws/install/rover_gazebo_plugins/lib:/home/thezerdas/exomy/exomy_ws/install/depthimage_to_laserscan/lib:/home/thezerdas/ros2_ws/install/realsense2_camera_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/thezerdas/exomy/exomy_ws/build/exomy:/home/thezerdas/exomy/exomy_ws/install/exomy/lib/python3.8/site-packages:/home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/lib/python3.8/site-packages:/home/thezerdas/exomy/exomy_ws/install/exomy_msgs/lib/python3.8/site-packages:/home/thezerdas/ros2_ws/install/realsense2_camera_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/thezerdas/exomy/exomy_ws/build/exomy_sim_launch -- -j2 -l2
+[7.067s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/thezerdas/exomy/exomy_ws/build/exomy_sim_launch': AMENT_PREFIX_PATH=/home/thezerdas/exomy/exomy_ws/install/exomy:/home/thezerdas/exomy/exomy_ws/install/rover_gazebo_plugins:/home/thezerdas/exomy/exomy_ws/install/exomy_sim_launch:/home/thezerdas/exomy/exomy_ws/install/exomy_sim:/home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs:/home/thezerdas/exomy/exomy_ws/install/exomy_msgs:/home/thezerdas/exomy/exomy_ws/install/depthimage_to_laserscan:/home/thezerdas/ros2_ws/install/realsense2_description:/home/thezerdas/ros2_ws/install/realsense2_camera_msgs:/opt/ros/foxy CMAKE_PREFIX_PATH=/home/thezerdas/exomy/exomy_ws/install/exomy_sim:/home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs:/home/thezerdas/exomy/exomy_ws/install/exomy_msgs:/home/thezerdas/exomy/exomy_ws/install/rover_gazebo_plugins:/home/thezerdas/exomy/exomy_ws/install/exomy_sim_launch:/home/thezerdas/exomy/exomy_ws/install/depthimage_to_laserscan:/home/thezerdas/ros2_ws/install/realsense2_description:/home/thezerdas/ros2_ws/install/realsense2_camera_msgs:/home/thezerdas/exomy/exomy_ws/install/exomy:/opt/ros/foxy GAZEBO_RESOURCE_PATH=/home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/worlds:${GAZEBO_RESOURCE_PATH} LD_LIBRARY_PATH=/home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/lib:/home/thezerdas/exomy/exomy_ws/install/exomy_msgs/lib:/home/thezerdas/exomy/exomy_ws/install/rover_gazebo_plugins/lib:/home/thezerdas/exomy/exomy_ws/install/depthimage_to_laserscan/lib:/home/thezerdas/ros2_ws/install/realsense2_camera_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/thezerdas/exomy/exomy_ws/build/exomy:/home/thezerdas/exomy/exomy_ws/install/exomy/lib/python3.8/site-packages:/home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/lib/python3.8/site-packages:/home/thezerdas/exomy/exomy_ws/install/exomy_msgs/lib/python3.8/site-packages:/home/thezerdas/ros2_ws/install/realsense2_camera_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/thezerdas/exomy/exomy_ws/build/exomy_sim_launch
+[7.135s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(exomy_sim_launch)
+[7.141s] Level 1:colcon.colcon_core.environment:checking '/home/thezerdas/exomy/exomy_ws/install/exomy_sim_launch' for CMake module files
+[7.142s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/thezerdas/exomy/exomy_ws/build/exomy_sim_launch' returned '0': AMENT_PREFIX_PATH=/home/thezerdas/exomy/exomy_ws/install/exomy:/home/thezerdas/exomy/exomy_ws/install/rover_gazebo_plugins:/home/thezerdas/exomy/exomy_ws/install/exomy_sim_launch:/home/thezerdas/exomy/exomy_ws/install/exomy_sim:/home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs:/home/thezerdas/exomy/exomy_ws/install/exomy_msgs:/home/thezerdas/exomy/exomy_ws/install/depthimage_to_laserscan:/home/thezerdas/ros2_ws/install/realsense2_description:/home/thezerdas/ros2_ws/install/realsense2_camera_msgs:/opt/ros/foxy CMAKE_PREFIX_PATH=/home/thezerdas/exomy/exomy_ws/install/exomy_sim:/home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs:/home/thezerdas/exomy/exomy_ws/install/exomy_msgs:/home/thezerdas/exomy/exomy_ws/install/rover_gazebo_plugins:/home/thezerdas/exomy/exomy_ws/install/exomy_sim_launch:/home/thezerdas/exomy/exomy_ws/install/depthimage_to_laserscan:/home/thezerdas/ros2_ws/install/realsense2_description:/home/thezerdas/ros2_ws/install/realsense2_camera_msgs:/home/thezerdas/exomy/exomy_ws/install/exomy:/opt/ros/foxy GAZEBO_RESOURCE_PATH=/home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/worlds:${GAZEBO_RESOURCE_PATH} LD_LIBRARY_PATH=/home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/lib:/home/thezerdas/exomy/exomy_ws/install/exomy_msgs/lib:/home/thezerdas/exomy/exomy_ws/install/rover_gazebo_plugins/lib:/home/thezerdas/exomy/exomy_ws/install/depthimage_to_laserscan/lib:/home/thezerdas/ros2_ws/install/realsense2_camera_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/thezerdas/exomy/exomy_ws/build/exomy:/home/thezerdas/exomy/exomy_ws/install/exomy/lib/python3.8/site-packages:/home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/lib/python3.8/site-packages:/home/thezerdas/exomy/exomy_ws/install/exomy_msgs/lib/python3.8/site-packages:/home/thezerdas/ros2_ws/install/realsense2_camera_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/thezerdas/exomy/exomy_ws/build/exomy_sim_launch
+[7.142s] Level 1:colcon.colcon_core.environment:checking '/home/thezerdas/exomy/exomy_ws/install/exomy_sim_launch' for CMake config files
+[7.143s] Level 1:colcon.colcon_core.shell:create_environment_hook('exomy_sim_launch', 'cmake_prefix_path')
+[7.146s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thezerdas/exomy/exomy_ws/install/exomy_sim_launch/share/exomy_sim_launch/hook/cmake_prefix_path.ps1'
+[7.148s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/thezerdas/exomy/exomy_ws/install/exomy_sim_launch/share/exomy_sim_launch/hook/cmake_prefix_path.dsv'
+[7.149s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thezerdas/exomy/exomy_ws/install/exomy_sim_launch/share/exomy_sim_launch/hook/cmake_prefix_path.sh'
+[7.150s] Level 1:colcon.colcon_core.environment:checking '/home/thezerdas/exomy/exomy_ws/install/exomy_sim_launch/bin'
+[7.150s] Level 1:colcon.colcon_core.environment:checking '/home/thezerdas/exomy/exomy_ws/install/exomy_sim_launch/lib/pkgconfig/exomy_sim_launch.pc'
+[7.151s] Level 1:colcon.colcon_core.environment:checking '/home/thezerdas/exomy/exomy_ws/install/exomy_sim_launch/lib/python3.8/site-packages'
+[7.151s] Level 1:colcon.colcon_core.environment:checking '/home/thezerdas/exomy/exomy_ws/install/exomy_sim_launch/bin'
+[7.155s] INFO:colcon.colcon_core.shell:Creating package script '/home/thezerdas/exomy/exomy_ws/install/exomy_sim_launch/share/exomy_sim_launch/package.ps1'
+[7.156s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/thezerdas/exomy/exomy_ws/install/exomy_sim_launch/share/exomy_sim_launch/package.dsv'
+[7.157s] INFO:colcon.colcon_core.shell:Creating package script '/home/thezerdas/exomy/exomy_ws/install/exomy_sim_launch/share/exomy_sim_launch/package.sh'
+[7.158s] INFO:colcon.colcon_core.shell:Creating package script '/home/thezerdas/exomy/exomy_ws/install/exomy_sim_launch/share/exomy_sim_launch/package.bash'
+[7.159s] INFO:colcon.colcon_core.shell:Creating package script '/home/thezerdas/exomy/exomy_ws/install/exomy_sim_launch/share/exomy_sim_launch/package.zsh'
+[7.159s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/thezerdas/exomy/exomy_ws/install/exomy_sim_launch/share/colcon-core/packages/exomy_sim_launch)
+[7.205s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(exomy_sim_launch)
+[7.211s] Level 1:colcon.colcon_core.environment:checking '/home/thezerdas/exomy/exomy_ws/install/exomy_sim_launch' for CMake module files
+[7.213s] Level 1:colcon.colcon_core.environment:checking '/home/thezerdas/exomy/exomy_ws/install/exomy_sim_launch' for CMake config files
+[7.214s] Level 1:colcon.colcon_core.shell:create_environment_hook('exomy_sim_launch', 'cmake_prefix_path')
+[7.218s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thezerdas/exomy/exomy_ws/install/exomy_sim_launch/share/exomy_sim_launch/hook/cmake_prefix_path.ps1'
+[7.220s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/thezerdas/exomy/exomy_ws/install/exomy_sim_launch/share/exomy_sim_launch/hook/cmake_prefix_path.dsv'
+[7.224s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thezerdas/exomy/exomy_ws/install/exomy_sim_launch/share/exomy_sim_launch/hook/cmake_prefix_path.sh'
+[7.227s] Level 1:colcon.colcon_core.environment:checking '/home/thezerdas/exomy/exomy_ws/install/exomy_sim_launch/bin'
+[7.227s] Level 1:colcon.colcon_core.environment:checking '/home/thezerdas/exomy/exomy_ws/install/exomy_sim_launch/lib/pkgconfig/exomy_sim_launch.pc'
+[7.228s] Level 1:colcon.colcon_core.environment:checking '/home/thezerdas/exomy/exomy_ws/install/exomy_sim_launch/lib/python3.8/site-packages'
+[7.229s] Level 1:colcon.colcon_core.environment:checking '/home/thezerdas/exomy/exomy_ws/install/exomy_sim_launch/bin'
+[7.233s] INFO:colcon.colcon_core.shell:Creating package script '/home/thezerdas/exomy/exomy_ws/install/exomy_sim_launch/share/exomy_sim_launch/package.ps1'
+[7.235s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/thezerdas/exomy/exomy_ws/install/exomy_sim_launch/share/exomy_sim_launch/package.dsv'
+[7.237s] INFO:colcon.colcon_core.shell:Creating package script '/home/thezerdas/exomy/exomy_ws/install/exomy_sim_launch/share/exomy_sim_launch/package.sh'
+[7.239s] INFO:colcon.colcon_core.shell:Creating package script '/home/thezerdas/exomy/exomy_ws/install/exomy_sim_launch/share/exomy_sim_launch/package.bash'
+[7.242s] INFO:colcon.colcon_core.shell:Creating package script '/home/thezerdas/exomy/exomy_ws/install/exomy_sim_launch/share/exomy_sim_launch/package.zsh'
+[7.244s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/thezerdas/exomy/exomy_ws/install/exomy_sim_launch/share/colcon-core/packages/exomy_sim_launch)
+[7.247s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[7.247s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[7.247s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[7.248s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[7.268s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[7.269s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[7.269s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[7.333s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[7.337s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/thezerdas/exomy/exomy_ws/install/local_setup.ps1'
+[7.341s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/thezerdas/exomy/exomy_ws/install/_local_setup_util_ps1.py'
+[7.347s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/thezerdas/exomy/exomy_ws/install/setup.ps1'
+[7.352s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/thezerdas/exomy/exomy_ws/install/local_setup.sh'
+[7.354s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/thezerdas/exomy/exomy_ws/install/_local_setup_util_sh.py'
+[7.356s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/thezerdas/exomy/exomy_ws/install/setup.sh'
+[7.361s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/thezerdas/exomy/exomy_ws/install/local_setup.bash'
+[7.363s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/thezerdas/exomy/exomy_ws/install/setup.bash'
+[7.383s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/thezerdas/exomy/exomy_ws/install/local_setup.zsh'
+[7.385s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/thezerdas/exomy/exomy_ws/install/setup.zsh'

@@ -1,0 +1,26 @@
+running develop
+running egg_info
+creating exomy.egg-info
+writing exomy.egg-info/PKG-INFO
+writing dependency_links to exomy.egg-info/dependency_links.txt
+writing entry points to exomy.egg-info/entry_points.txt
+writing requirements to exomy.egg-info/requires.txt
+writing top-level names to exomy.egg-info/top_level.txt
+writing manifest file 'exomy.egg-info/SOURCES.txt'
+reading manifest file 'exomy.egg-info/SOURCES.txt'
+writing manifest file 'exomy.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/thezerdas/exomy/exomy_ws/install/exomy/lib/python3.8/site-packages/site.py
+Creating /home/thezerdas/exomy/exomy_ws/install/exomy/lib/python3.8/site-packages/exomy.egg-link (link to .)
+Installing motor_node script to /home/thezerdas/exomy/exomy_ws/install/exomy/lib/exomy
+Installing robot_node_modified script to /home/thezerdas/exomy/exomy_ws/install/exomy/lib/exomy
+
+Installed /home/thezerdas/exomy/exomy_ws/build/exomy
+running install_data
+creating /home/thezerdas/exomy/exomy_ws/install/exomy/share/ament_index
+creating /home/thezerdas/exomy/exomy_ws/install/exomy/share/ament_index/resource_index
+creating /home/thezerdas/exomy/exomy_ws/install/exomy/share/ament_index/resource_index/packages
+copying resource/exomy -> /home/thezerdas/exomy/exomy_ws/install/exomy/share/ament_index/resource_index/packages
+copying package.xml -> /home/thezerdas/exomy/exomy_ws/install/exomy/share/exomy
+copying launch/exomy.launch.py -> /home/thezerdas/exomy/exomy_ws/install/exomy/share/exomy
+copying config/exomy_controller.yaml -> /home/thezerdas/exomy/exomy_ws/install/exomy/share/exomy

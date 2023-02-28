@@ -1,0 +1,8 @@
+{
+  "package_name": "exomy_msgs",
+  "non_idl_tuples": [
+    "/home/thezerdas/exomy/exomy_ws/src/exomy_msgs:msg/MotorCommands.msg",
+    "/home/thezerdas/exomy/exomy_ws/src/exomy_msgs:msg/RoverCommand.msg",
+    "/home/thezerdas/exomy/exomy_ws/src/exomy_msgs:msg/Screen.msg"
+  ]
+}

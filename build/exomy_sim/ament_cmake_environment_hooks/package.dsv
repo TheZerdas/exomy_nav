@@ -1,0 +1,4 @@
+source;share/exomy_sim/local_setup.bash
+source;share/exomy_sim/local_setup.dsv
+source;share/exomy_sim/local_setup.sh
+source;share/exomy_sim/local_setup.zsh

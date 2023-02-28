@@ -1,0 +1,9 @@
+source;share/exomy/hook/pythonpath.ps1
+source;share/exomy/hook/pythonpath.dsv
+source;share/exomy/hook/pythonpath.sh
+source;share/exomy/hook/ament_prefix_path.ps1
+source;share/exomy/hook/ament_prefix_path.dsv
+source;share/exomy/hook/ament_prefix_path.sh
+source;../../build/exomy/share/exomy/hook/pythonpath_develop.ps1
+source;../../build/exomy/share/exomy/hook/pythonpath_develop.dsv
+source;../../build/exomy/share/exomy/hook/pythonpath_develop.sh

@@ -1,0 +1,1 @@
+/home/thezerdas/exomy/exomy_ws/src/exomy/launch/exomy.launch.py

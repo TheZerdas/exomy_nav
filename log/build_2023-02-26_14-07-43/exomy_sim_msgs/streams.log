@@ -1,0 +1,105 @@
+[0.066s] Invoking command in '/home/thezerdas/exomy/exomy_ws/build/exomy_sim_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/thezerdas/exomy/exomy_ws/install/exomy:/opt/ros/foxy /usr/bin/cmake --build /home/thezerdas/exomy/exomy_ws/build/exomy_sim_msgs -- -j2 -l2
+[0.285s] [ 10%] Built target exomy_sim_msgs__rosidl_generator_c
+[0.297s] [ 12%] Built target exomy_sim_msgs__cpp
+[0.378s] [ 23%] Built target exomy_sim_msgs__rosidl_typesupport_introspection_c
+[0.390s] [ 33%] Built target exomy_sim_msgs__rosidl_typesupport_c
+[0.465s] [ 43%] Built target exomy_sim_msgs__rosidl_typesupport_introspection_cpp
+[0.486s] [ 53%] Built target exomy_sim_msgs__rosidl_typesupport_cpp
+[0.539s] [ 64%] Built target exomy_sim_msgs__rosidl_typesupport_fastrtps_cpp
+[0.597s] [ 74%] Built target exomy_sim_msgs__rosidl_typesupport_fastrtps_c
+[0.648s] [ 74%] Built target exomy_sim_msgs
+[0.694s] [ 76%] Built target exomy_sim_msgs__py
+[0.749s] [ 84%] Built target exomy_sim_msgs__python
+[0.823s] [ 89%] Built target exomy_sim_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.867s] [ 94%] Built target exomy_sim_msgs__rosidl_typesupport_introspection_c__pyext
+[0.896s] [100%] Built target exomy_sim_msgs__rosidl_typesupport_c__pyext
+[0.928s] Invoked command in '/home/thezerdas/exomy/exomy_ws/build/exomy_sim_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/thezerdas/exomy/exomy_ws/install/exomy:/opt/ros/foxy /usr/bin/cmake --build /home/thezerdas/exomy/exomy_ws/build/exomy_sim_msgs -- -j2 -l2
+[1.103s] Invoking command in '/home/thezerdas/exomy/exomy_ws/build/exomy_sim_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/thezerdas/exomy/exomy_ws/install/exomy:/opt/ros/foxy /usr/bin/cmake --install /home/thezerdas/exomy/exomy_ws/build/exomy_sim_msgs
+[1.118s] -- Install configuration: ""
+[1.119s] -- Execute custom install script
+[1.120s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/share/ament_index/resource_index/rosidl_interfaces/exomy_sim_msgs
+[1.121s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/include/exomy_sim_msgs/msg/detail/joint_command__functions.h
+[1.122s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/include/exomy_sim_msgs/msg/detail/joint_command__struct.h
+[1.122s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/include/exomy_sim_msgs/msg/detail/joint_command__type_support.h
+[1.123s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/include/exomy_sim_msgs/msg/detail/joint_command_array__functions.h
+[1.123s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/include/exomy_sim_msgs/msg/detail/joint_command_array__struct.h
+[1.123s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/include/exomy_sim_msgs/msg/detail/joint_command_array__type_support.h
+[1.124s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/include/exomy_sim_msgs/msg/joint_command.h
+[1.125s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/include/exomy_sim_msgs/msg/joint_command_array.h
+[1.125s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/include/exomy_sim_msgs/msg/rosidl_generator_c__visibility_control.h
+[1.126s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/share/exomy_sim_msgs/environment/library_path.sh
+[1.127s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/share/exomy_sim_msgs/environment/library_path.dsv
+[1.128s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/include/exomy_sim_msgs/msg/detail/joint_command__rosidl_typesupport_fastrtps_c.h
+[1.129s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/include/exomy_sim_msgs/msg/detail/joint_command_array__rosidl_typesupport_fastrtps_c.h
+[1.129s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/include/exomy_sim_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.130s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/lib/libexomy_sim_msgs__rosidl_typesupport_fastrtps_c.so
+[1.131s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/include/exomy_sim_msgs/msg/detail/joint_command__rosidl_typesupport_fastrtps_cpp.hpp
+[1.132s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/include/exomy_sim_msgs/msg/detail/joint_command_array__rosidl_typesupport_fastrtps_cpp.hpp
+[1.133s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/include/exomy_sim_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.135s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/lib/libexomy_sim_msgs__rosidl_typesupport_fastrtps_cpp.so
+[1.135s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/include/exomy_sim_msgs/msg/detail/joint_command__rosidl_typesupport_introspection_c.h
+[1.136s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/include/exomy_sim_msgs/msg/detail/joint_command_array__rosidl_typesupport_introspection_c.h
+[1.136s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/include/exomy_sim_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.137s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/include/exomy_sim_msgs/msg/detail/joint_command__builder.hpp
+[1.137s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/include/exomy_sim_msgs/msg/detail/joint_command__struct.hpp
+[1.138s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/include/exomy_sim_msgs/msg/detail/joint_command__traits.hpp
+[1.138s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/include/exomy_sim_msgs/msg/detail/joint_command_array__builder.hpp
+[1.139s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/include/exomy_sim_msgs/msg/detail/joint_command_array__struct.hpp
+[1.140s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/include/exomy_sim_msgs/msg/detail/joint_command_array__traits.hpp
+[1.140s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/include/exomy_sim_msgs/msg/joint_command.hpp
+[1.142s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/include/exomy_sim_msgs/msg/joint_command_array.hpp
+[1.144s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/include/exomy_sim_msgs/msg/detail/joint_command__rosidl_typesupport_introspection_cpp.hpp
+[1.145s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/include/exomy_sim_msgs/msg/detail/joint_command_array__rosidl_typesupport_introspection_cpp.hpp
+[1.147s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/share/exomy_sim_msgs/environment/pythonpath.sh
+[1.147s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/share/exomy_sim_msgs/environment/pythonpath.dsv
+[1.148s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/lib/python3.8/site-packages/exomy_sim_msgs/__init__.py
+[1.150s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/lib/python3.8/site-packages/exomy_sim_msgs/msg/__init__.py
+[1.151s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/lib/python3.8/site-packages/exomy_sim_msgs/msg/_joint_command.py
+[1.152s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/lib/python3.8/site-packages/exomy_sim_msgs/msg/_joint_command_array.py
+[1.153s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/lib/python3.8/site-packages/exomy_sim_msgs/exomy_sim_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[1.154s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/lib/python3.8/site-packages/exomy_sim_msgs/exomy_sim_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[1.156s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/lib/python3.8/site-packages/exomy_sim_msgs/exomy_sim_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[1.156s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/lib/libexomy_sim_msgs__python.so
+[1.156s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/share/exomy_sim_msgs/msg/JointCommand.idl
+[1.159s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/share/exomy_sim_msgs/msg/JointCommandArray.idl
+[1.163s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/share/exomy_sim_msgs/msg/JointCommand.msg
+[1.164s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/share/exomy_sim_msgs/msg/JointCommandArray.msg
+[1.164s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/share/ament_index/resource_index/package_run_dependencies/exomy_sim_msgs
+[1.164s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/share/ament_index/resource_index/parent_prefix_path/exomy_sim_msgs
+[1.164s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/share/exomy_sim_msgs/environment/ament_prefix_path.sh
+[1.164s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/share/exomy_sim_msgs/environment/ament_prefix_path.dsv
+[1.164s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/share/exomy_sim_msgs/environment/path.sh
+[1.165s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/share/exomy_sim_msgs/environment/path.dsv
+[1.165s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/share/exomy_sim_msgs/local_setup.bash
+[1.165s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/share/exomy_sim_msgs/local_setup.sh
+[1.165s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/share/exomy_sim_msgs/local_setup.zsh
+[1.165s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/share/exomy_sim_msgs/local_setup.dsv
+[1.166s] -- Symlinking: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/share/exomy_sim_msgs/package.dsv
+[1.181s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/share/ament_index/resource_index/packages/exomy_sim_msgs
+[1.182s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/share/exomy_sim_msgs/cmake/rosidl_cmake-extras.cmake
+[1.182s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/share/exomy_sim_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.182s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/share/exomy_sim_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[1.183s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/share/exomy_sim_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[1.184s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/share/exomy_sim_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.184s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/share/exomy_sim_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.185s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/share/exomy_sim_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.187s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/share/exomy_sim_msgs/cmake/exomy_sim_msgsConfig.cmake
+[1.188s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/share/exomy_sim_msgs/cmake/exomy_sim_msgsConfig-version.cmake
+[1.190s] -- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/share/exomy_sim_msgs/package.xml
+[1.190s] -- Up-to-date: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/lib/libexomy_sim_msgs__rosidl_generator_c.so
+[1.191s] -- Up-to-date: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/lib/libexomy_sim_msgs__rosidl_typesupport_introspection_c.so
+[1.191s] -- Up-to-date: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/lib/libexomy_sim_msgs__rosidl_typesupport_c.so
+[1.191s] -- Up-to-date: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/lib/libexomy_sim_msgs__rosidl_typesupport_introspection_cpp.so
+[1.191s] -- Up-to-date: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/lib/libexomy_sim_msgs__rosidl_typesupport_cpp.so
+[1.321s] -- Up-to-date: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/share/exomy_sim_msgs/cmake/exomy_sim_msgs__rosidl_generator_cExport.cmake
+[1.321s] -- Up-to-date: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/share/exomy_sim_msgs/cmake/exomy_sim_msgs__rosidl_generator_cExport-noconfig.cmake
+[1.321s] -- Up-to-date: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/share/exomy_sim_msgs/cmake/exomy_sim_msgs__rosidl_typesupport_introspection_cExport.cmake
+[1.322s] -- Up-to-date: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/share/exomy_sim_msgs/cmake/exomy_sim_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.322s] -- Up-to-date: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/share/exomy_sim_msgs/cmake/exomy_sim_msgs__rosidl_typesupport_cExport.cmake
+[1.322s] -- Up-to-date: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/share/exomy_sim_msgs/cmake/exomy_sim_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[1.322s] -- Up-to-date: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/share/exomy_sim_msgs/cmake/exomy_sim_msgs__rosidl_generator_cppExport.cmake
+[1.322s] -- Up-to-date: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/share/exomy_sim_msgs/cmake/exomy_sim_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[1.323s] -- Up-to-date: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/share/exomy_sim_msgs/cmake/exomy_sim_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.323s] -- Up-to-date: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/share/exomy_sim_msgs/cmake/exomy_sim_msgs__rosidl_typesupport_cppExport.cmake
+[1.323s] -- Up-to-date: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/share/exomy_sim_msgs/cmake/exomy_sim_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[1.325s] Invoked command in '/home/thezerdas/exomy/exomy_ws/build/exomy_sim_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/thezerdas/exomy/exomy_ws/install/exomy:/opt/ros/foxy /usr/bin/cmake --install /home/thezerdas/exomy/exomy_ws/build/exomy_sim_msgs

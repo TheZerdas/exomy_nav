@@ -1,0 +1,30 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_launch/share/exomy_sim_launch//launch/__pycache__/simulation_mod.launch.cpython-38.pyc
+-- Symlinking: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_launch/share/exomy_sim_launch//launch/localization_launch.py
+-- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_launch/share/exomy_sim_launch//launch/navigation_launch.py
+-- Symlinking: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_launch/share/exomy_sim_launch//launch/online_async_launch.py
+-- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_launch/share/exomy_sim_launch//launch/ros_navigation_socket.launch.py
+-- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_launch/share/exomy_sim_launch//launch/simulation.launch.py
+-- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_launch/share/exomy_sim_launch//launch/simulation_localization.launch.py
+-- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_launch/share/exomy_sim_launch//launch/simulation_mod.launch V4.py
+-- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_launch/share/exomy_sim_launch//launch/simulation_mod.launch.py
+-- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_launch/share/exomy_sim_launch//launch/simulation_mod.launchV1.py
+-- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_launch/share/exomy_sim_launch//launch/simulation_modV2.launch.py
+-- Symlinking: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_launch/share/exomy_sim_launch//launch/simulation_mod_2.launch.py
+-- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_launch/share/exomy_sim_launch//launch/spawn_exomy.launch.py
+-- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_launch/share/ament_index/resource_index/package_run_dependencies/exomy_sim_launch
+-- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_launch/share/ament_index/resource_index/parent_prefix_path/exomy_sim_launch
+-- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_launch/share/exomy_sim_launch/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_launch/share/exomy_sim_launch/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_launch/share/exomy_sim_launch/environment/path.sh
+-- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_launch/share/exomy_sim_launch/environment/path.dsv
+-- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_launch/share/exomy_sim_launch/local_setup.bash
+-- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_launch/share/exomy_sim_launch/local_setup.sh
+-- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_launch/share/exomy_sim_launch/local_setup.zsh
+-- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_launch/share/exomy_sim_launch/local_setup.dsv
+-- Symlinking: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_launch/share/exomy_sim_launch/package.dsv
+-- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_launch/share/ament_index/resource_index/packages/exomy_sim_launch
+-- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_launch/share/exomy_sim_launch/cmake/exomy_sim_launchConfig.cmake
+-- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_launch/share/exomy_sim_launch/cmake/exomy_sim_launchConfig-version.cmake
+-- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_launch/share/exomy_sim_launch/package.xml

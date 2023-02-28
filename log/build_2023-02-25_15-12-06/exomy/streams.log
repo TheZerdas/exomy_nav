@@ -1,0 +1,28 @@
+[3.105s] Invoking command in '/home/thezerdas/exomy/exomy_ws/build/exomy': CMAKE_PREFIX_PATH=/home/thezerdas/exomy/exomy_ws/install/exomy_msgs:/home/thezerdas/ros2_ws/install/realsense2_description:/home/thezerdas/ros2_ws/install/realsense2_camera_msgs:/home/thezerdas/exomy/exomy_ws/install/rover_gazebo_plugins:/home/thezerdas/exomy/exomy_ws/install/exomy_sim_launch:/home/thezerdas/exomy/exomy_ws/install/exomy_sim:/home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs:/home/thezerdas/exomy/exomy_ws/install/depthimage_to_laserscan LD_LIBRARY_PATH=/home/thezerdas/exomy/exomy_ws/install/exomy_msgs/lib:/home/thezerdas/ros2_ws/install/realsense2_camera_msgs/lib:/home/thezerdas/exomy/exomy_ws/install/rover_gazebo_plugins/lib:/home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/lib:/home/thezerdas/exomy/exomy_ws/install/depthimage_to_laserscan/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/thezerdas/exomy/exomy_ws/build/exomy/prefix_override:/home/thezerdas/exomy/exomy_ws/install/exomy/lib/python3.8/site-packages:/home/thezerdas/exomy/exomy_ws/install/exomy_msgs/lib/python3.8/site-packages:/home/thezerdas/ros2_ws/install/realsense2_camera_msgs/lib/python3.8/site-packages:/home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/lib/python3.8/site-packages:/home/thezerdas/exomy/exomy_ws/build/exomy:/home/thezerdas/exomy/exomy_ws/install/exomy/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py develop --editable --build-directory /home/thezerdas/exomy/exomy_ws/build/exomy/build --no-deps install_data
+[3.837s] running develop
+[4.315s] running egg_info
+[4.315s] creating exomy.egg-info
+[4.316s] writing exomy.egg-info/PKG-INFO
+[4.317s] writing dependency_links to exomy.egg-info/dependency_links.txt
+[4.317s] writing entry points to exomy.egg-info/entry_points.txt
+[4.318s] writing requirements to exomy.egg-info/requires.txt
+[4.318s] writing top-level names to exomy.egg-info/top_level.txt
+[4.321s] writing manifest file 'exomy.egg-info/SOURCES.txt'
+[4.437s] reading manifest file 'exomy.egg-info/SOURCES.txt'
+[4.439s] writing manifest file 'exomy.egg-info/SOURCES.txt'
+[4.554s] running build_ext
+[4.555s] Creating /home/thezerdas/exomy/exomy_ws/install/exomy/lib/python3.8/site-packages/site.py
+[4.560s] Creating /home/thezerdas/exomy/exomy_ws/install/exomy/lib/python3.8/site-packages/exomy.egg-link (link to .)
+[4.562s] Installing motor_node script to /home/thezerdas/exomy/exomy_ws/install/exomy/lib/exomy
+[4.563s] Installing robot_node_modified script to /home/thezerdas/exomy/exomy_ws/install/exomy/lib/exomy
+[4.564s] 
+[4.564s] Installed /home/thezerdas/exomy/exomy_ws/build/exomy
+[4.564s] running install_data
+[4.565s] creating /home/thezerdas/exomy/exomy_ws/install/exomy/share/ament_index
+[4.565s] creating /home/thezerdas/exomy/exomy_ws/install/exomy/share/ament_index/resource_index
+[4.565s] creating /home/thezerdas/exomy/exomy_ws/install/exomy/share/ament_index/resource_index/packages
+[4.568s] copying resource/exomy -> /home/thezerdas/exomy/exomy_ws/install/exomy/share/ament_index/resource_index/packages
+[4.569s] copying package.xml -> /home/thezerdas/exomy/exomy_ws/install/exomy/share/exomy
+[4.569s] copying launch/exomy.launch.py -> /home/thezerdas/exomy/exomy_ws/install/exomy/share/exomy
+[4.569s] copying config/exomy_controller.yaml -> /home/thezerdas/exomy/exomy_ws/install/exomy/share/exomy
+[4.645s] Invoked command in '/home/thezerdas/exomy/exomy_ws/build/exomy' returned '0': CMAKE_PREFIX_PATH=/home/thezerdas/exomy/exomy_ws/install/exomy_msgs:/home/thezerdas/ros2_ws/install/realsense2_description:/home/thezerdas/ros2_ws/install/realsense2_camera_msgs:/home/thezerdas/exomy/exomy_ws/install/rover_gazebo_plugins:/home/thezerdas/exomy/exomy_ws/install/exomy_sim_launch:/home/thezerdas/exomy/exomy_ws/install/exomy_sim:/home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs:/home/thezerdas/exomy/exomy_ws/install/depthimage_to_laserscan LD_LIBRARY_PATH=/home/thezerdas/exomy/exomy_ws/install/exomy_msgs/lib:/home/thezerdas/ros2_ws/install/realsense2_camera_msgs/lib:/home/thezerdas/exomy/exomy_ws/install/rover_gazebo_plugins/lib:/home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/lib:/home/thezerdas/exomy/exomy_ws/install/depthimage_to_laserscan/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/thezerdas/exomy/exomy_ws/build/exomy/prefix_override:/home/thezerdas/exomy/exomy_ws/install/exomy/lib/python3.8/site-packages:/home/thezerdas/exomy/exomy_ws/install/exomy_msgs/lib/python3.8/site-packages:/home/thezerdas/ros2_ws/install/realsense2_camera_msgs/lib/python3.8/site-packages:/home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/lib/python3.8/site-packages:/home/thezerdas/exomy/exomy_ws/build/exomy:/home/thezerdas/exomy/exomy_ws/install/exomy/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py develop --editable --build-directory /home/thezerdas/exomy/exomy_ws/build/exomy/build --no-deps install_data

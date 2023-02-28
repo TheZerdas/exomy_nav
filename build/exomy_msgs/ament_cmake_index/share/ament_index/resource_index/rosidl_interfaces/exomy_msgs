@@ -1,0 +1,6 @@
+msg/MotorCommands.idl
+msg/MotorCommands.msg
+msg/RoverCommand.idl
+msg/RoverCommand.msg
+msg/Screen.idl
+msg/Screen.msg

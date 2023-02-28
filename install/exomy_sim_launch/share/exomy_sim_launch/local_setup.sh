@@ -1,0 +1,1 @@
+/home/thezerdas/exomy/exomy_ws/build/exomy_sim_launch/ament_cmake_environment_hooks/local_setup.sh

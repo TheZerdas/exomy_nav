@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/thezerdas/exomy/exomy_ws/build/rover_gazebo_plugins/librover_gazebo_joint_plugin.so" "TARGETS" "rover_gazebo_joint_plugin" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

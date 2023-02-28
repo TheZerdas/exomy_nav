@@ -1,0 +1,4 @@
+[console_scripts]
+motor_node = exomy.motor_node:main
+robot_node_modified = exomy.robot_node_modified:main
+

@@ -1,0 +1,45 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/thezerdas/exomy/exomy_ws/build/exomy_sim_launch
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_launch/share/exomy_sim_launch//launch/__pycache__/simulation_mod.launch.cpython-38.pyc
+-- Symlinking: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_launch/share/exomy_sim_launch//launch/ros_navigation_socket.launch.py
+-- Symlinking: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_launch/share/exomy_sim_launch//launch/simulation.launch.py
+-- Symlinking: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_launch/share/exomy_sim_launch//launch/simulation_mod.launch.py
+-- Symlinking: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_launch/share/exomy_sim_launch//launch/simulation_mod.launchV1.py
+-- Symlinking: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_launch/share/exomy_sim_launch//launch/simulation_mod.launchV2.py
+-- Symlinking: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_launch/share/exomy_sim_launch//launch/spawn_exomy.launch.py
+-- Symlinking: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_launch/share/ament_index/resource_index/package_run_dependencies/exomy_sim_launch
+-- Symlinking: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_launch/share/ament_index/resource_index/parent_prefix_path/exomy_sim_launch
+-- Symlinking: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_launch/share/exomy_sim_launch/environment/ament_prefix_path.sh
+-- Symlinking: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_launch/share/exomy_sim_launch/environment/ament_prefix_path.dsv
+-- Symlinking: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_launch/share/exomy_sim_launch/environment/path.sh
+-- Symlinking: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_launch/share/exomy_sim_launch/environment/path.dsv
+-- Symlinking: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_launch/share/exomy_sim_launch/local_setup.bash
+-- Symlinking: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_launch/share/exomy_sim_launch/local_setup.sh
+-- Symlinking: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_launch/share/exomy_sim_launch/local_setup.zsh
+-- Symlinking: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_launch/share/exomy_sim_launch/local_setup.dsv
+-- Symlinking: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_launch/share/exomy_sim_launch/package.dsv
+-- Symlinking: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_launch/share/ament_index/resource_index/packages/exomy_sim_launch
+-- Symlinking: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_launch/share/exomy_sim_launch/cmake/exomy_sim_launchConfig.cmake
+-- Symlinking: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_launch/share/exomy_sim_launch/cmake/exomy_sim_launchConfig-version.cmake
+-- Symlinking: /home/thezerdas/exomy/exomy_ws/install/exomy_sim_launch/share/exomy_sim_launch/package.xml

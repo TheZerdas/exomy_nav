@@ -1,0 +1,78 @@
+[100%] Built target joint_command_node
+-- Install configuration: ""
+-- Up-to-date: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/config
+-- Up-to-date: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/config/joint_names_exomy_model.yaml
+-- Up-to-date: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/config/nav2_params.yaml
+-- Installing: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/config/mapper_params_online_async.yaml
+-- Up-to-date: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/rviz
+-- Up-to-date: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/rviz/simulation.rviz
+-- Up-to-date: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/rviz/simulation2.rviz
+-- Up-to-date: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/rviz/simulation3.rviz
+-- Up-to-date: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models
+-- Up-to-date: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/exomy_model
+-- Up-to-date: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/exomy_model/exomy_model.csv
+-- Up-to-date: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/exomy_model/model.config
+-- Up-to-date: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/exomy_model/meshes
+-- Up-to-date: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/exomy_model/meshes/STR_RF_link.STL
+-- Up-to-date: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/exomy_model/meshes/DRV_LM_link.STL
+-- Up-to-date: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/exomy_model/meshes/base_link.STL
+-- Up-to-date: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/exomy_model/meshes/STR_LR_link.STL
+-- Up-to-date: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/exomy_model/meshes/STR_LF_link.STL
+-- Up-to-date: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/exomy_model/meshes/pupil_right_link.STL
+-- Up-to-date: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/exomy_model/meshes/pupil_left_link.STL
+-- Up-to-date: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/exomy_model/meshes/MRB_link.STL
+-- Up-to-date: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/exomy_model/meshes/hat_link.STL
+-- Up-to-date: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/exomy_model/meshes/bling_link.STL
+-- Up-to-date: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/exomy_model/meshes/RFB_link.STL
+-- Up-to-date: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/exomy_model/meshes/DRV_LF_link.STL
+-- Up-to-date: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/exomy_model/meshes/eyewhite_link.STL
+-- Up-to-date: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/exomy_model/meshes/cam_link.STL
+-- Up-to-date: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/exomy_model/meshes/STR_RM_link.STL
+-- Up-to-date: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/exomy_model/meshes/DRV_RF_link.STL
+-- Up-to-date: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/exomy_model/meshes/DRV_RM_link.STL
+-- Up-to-date: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/exomy_model/meshes/DRV_RR_link.STL
+-- Up-to-date: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/exomy_model/meshes/STR_RR_link.STL
+-- Up-to-date: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/exomy_model/meshes/LFB_link.STL
+-- Up-to-date: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/exomy_model/meshes/head_link.STL
+-- Up-to-date: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/exomy_model/meshes/STR_LM_link.STL
+-- Up-to-date: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/exomy_model/meshes/DRV_LR_link.STL
+-- Installing: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/exomy_model/exomy_model.urdf
+-- Up-to-date: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/exomy_model/exomy_model_ros.urdf
+-- Up-to-date: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/mars_yard
+-- Up-to-date: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/mars_yard/model.config
+-- Up-to-date: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/mars_yard/meshes
+-- Up-to-date: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/mars_yard/meshes/mars_yard.dae
+-- Up-to-date: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/mars_yard/meshes/PUTBOrtho.jpg
+-- Up-to-date: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/mars_yard/model.sdf
+-- Up-to-date: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/mars_yard/model
+-- Up-to-date: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/mars_yard/model/lab_terrain.blend
+-- Up-to-date: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/exomy_model.urdf
+-- Up-to-date: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/curiosity
+-- Up-to-date: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/curiosity/model.config
+-- Up-to-date: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/curiosity/meshes
+-- Up-to-date: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/curiosity/meshes/curiosity.stl
+-- Up-to-date: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/curiosity/model.sdf
+-- Up-to-date: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/worlds
+-- Up-to-date: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/worlds/obstacles.world
+-- Up-to-date: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/worlds/curiosity.world
+-- Up-to-date: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/worlds/empty.world
+-- Up-to-date: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/worlds/mars_yard.world
+-- Execute custom install script
+-- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/lib/exomy_sim/joint_command_node
+-- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/environment/exomy_sim.sh
+-- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/environment/exomy_sim.dsv
+-- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/ament_index/resource_index/package_run_dependencies/exomy_sim
+-- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/ament_index/resource_index/parent_prefix_path/exomy_sim
+-- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/environment/path.sh
+-- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/environment/path.dsv
+-- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/local_setup.bash
+-- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/local_setup.sh
+-- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/local_setup.zsh
+-- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/local_setup.dsv
+-- Symlinking: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/package.dsv
+-- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/ament_index/resource_index/packages/exomy_sim
+-- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/cmake/exomy_simConfig.cmake
+-- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/cmake/exomy_simConfig-version.cmake
+-- Up-to-date symlink: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/package.xml

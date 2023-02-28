@@ -1,0 +1,7 @@
+{
+  "package_name": "exomy_sim_msgs",
+  "non_idl_tuples": [
+    "/home/thezerdas/exomy/exomy_ws/src/exomy_sim_msgs:msg/JointCommand.msg",
+    "/home/thezerdas/exomy/exomy_ws/src/exomy_sim_msgs:msg/JointCommandArray.msg"
+  ]
+}

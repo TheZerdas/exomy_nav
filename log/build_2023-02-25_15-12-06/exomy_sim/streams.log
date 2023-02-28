@@ -1,0 +1,127 @@
+[0.076s] Invoking command in '/home/thezerdas/exomy/exomy_ws/build/exomy_sim': CMAKE_PREFIX_PATH=/home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs:/home/thezerdas/exomy/exomy_ws/install/exomy_msgs:/home/thezerdas/ros2_ws/install/realsense2_description:/home/thezerdas/ros2_ws/install/realsense2_camera_msgs:/home/thezerdas/exomy/exomy_ws/install/rover_gazebo_plugins:/home/thezerdas/exomy/exomy_ws/install/exomy_sim_launch:/home/thezerdas/exomy/exomy_ws/install/exomy_sim:/home/thezerdas/exomy/exomy_ws/install/depthimage_to_laserscan:/home/thezerdas/exomy/exomy_ws/install/exomy:/opt/ros/foxy LD_LIBRARY_PATH=/home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/lib:/home/thezerdas/exomy/exomy_ws/install/exomy_msgs/lib:/home/thezerdas/ros2_ws/install/realsense2_camera_msgs/lib:/home/thezerdas/exomy/exomy_ws/install/rover_gazebo_plugins/lib:/home/thezerdas/exomy/exomy_ws/install/depthimage_to_laserscan/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/lib/python3.8/site-packages:/home/thezerdas/exomy/exomy_ws/install/exomy_msgs/lib/python3.8/site-packages:/home/thezerdas/ros2_ws/install/realsense2_camera_msgs/lib/python3.8/site-packages:/home/thezerdas/exomy/exomy_ws/build/exomy:/home/thezerdas/exomy/exomy_ws/install/exomy/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake /home/thezerdas/exomy/exomy_ws/src/exomy_sim -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/thezerdas/exomy/exomy_ws/install/exomy_sim
+[0.461s] -- The C compiler identification is GNU 9.4.0
+[0.731s] -- The CXX compiler identification is GNU 9.4.0
+[0.755s] -- Check for working C compiler: /usr/bin/cc
+[1.212s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.215s] -- Detecting C compiler ABI info
+[1.579s] -- Detecting C compiler ABI info - done
+[1.699s] -- Detecting C compile features
+[1.700s] -- Detecting C compile features - done
+[1.716s] -- Check for working CXX compiler: /usr/bin/c++
+[2.431s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.434s] -- Detecting CXX compiler ABI info
+[2.967s] -- Detecting CXX compiler ABI info - done
+[3.105s] -- Detecting CXX compile features
+[3.108s] -- Detecting CXX compile features - done
+[3.123s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[3.301s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.301s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.920s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[5.063s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[5.367s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.408s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[6.114s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[6.359s] -- Found FastRTPS: /opt/ros/foxy/include  
+[7.055s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.403s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[7.416s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.422s] -- Looking for pthread.h
+[7.904s] -- Looking for pthread.h - found
+[7.904s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[8.101s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[8.101s] -- Looking for pthread_create in pthreads
+[8.263s] -- Looking for pthread_create in pthreads - not found
+[8.263s] -- Looking for pthread_create in pthread
+[8.463s] -- Looking for pthread_create in pthread - found
+[8.465s] -- Found Threads: TRUE  
+[9.301s] -- Found exomy_msgs: 2.0.0 (/home/thezerdas/exomy/exomy_ws/install/exomy_msgs/share/exomy_msgs/cmake)
+[9.365s] -- Found exomy_sim_msgs: 2.0.0 (/home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/share/exomy_sim_msgs/cmake)
+[9.525s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[10.228s] -- Configuring done
+[10.270s] -- Generating done
+[10.275s] -- Build files have been written to: /home/thezerdas/exomy/exomy_ws/build/exomy_sim
+[10.319s] Invoked command in '/home/thezerdas/exomy/exomy_ws/build/exomy_sim' returned '0': CMAKE_PREFIX_PATH=/home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs:/home/thezerdas/exomy/exomy_ws/install/exomy_msgs:/home/thezerdas/ros2_ws/install/realsense2_description:/home/thezerdas/ros2_ws/install/realsense2_camera_msgs:/home/thezerdas/exomy/exomy_ws/install/rover_gazebo_plugins:/home/thezerdas/exomy/exomy_ws/install/exomy_sim_launch:/home/thezerdas/exomy/exomy_ws/install/exomy_sim:/home/thezerdas/exomy/exomy_ws/install/depthimage_to_laserscan:/home/thezerdas/exomy/exomy_ws/install/exomy:/opt/ros/foxy LD_LIBRARY_PATH=/home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/lib:/home/thezerdas/exomy/exomy_ws/install/exomy_msgs/lib:/home/thezerdas/ros2_ws/install/realsense2_camera_msgs/lib:/home/thezerdas/exomy/exomy_ws/install/rover_gazebo_plugins/lib:/home/thezerdas/exomy/exomy_ws/install/depthimage_to_laserscan/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/lib/python3.8/site-packages:/home/thezerdas/exomy/exomy_ws/install/exomy_msgs/lib/python3.8/site-packages:/home/thezerdas/ros2_ws/install/realsense2_camera_msgs/lib/python3.8/site-packages:/home/thezerdas/exomy/exomy_ws/build/exomy:/home/thezerdas/exomy/exomy_ws/install/exomy/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake /home/thezerdas/exomy/exomy_ws/src/exomy_sim -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/thezerdas/exomy/exomy_ws/install/exomy_sim
+[10.321s] Invoking command in '/home/thezerdas/exomy/exomy_ws/build/exomy_sim': CMAKE_PREFIX_PATH=/home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs:/home/thezerdas/exomy/exomy_ws/install/exomy_msgs:/home/thezerdas/ros2_ws/install/realsense2_description:/home/thezerdas/ros2_ws/install/realsense2_camera_msgs:/home/thezerdas/exomy/exomy_ws/install/rover_gazebo_plugins:/home/thezerdas/exomy/exomy_ws/install/exomy_sim_launch:/home/thezerdas/exomy/exomy_ws/install/exomy_sim:/home/thezerdas/exomy/exomy_ws/install/depthimage_to_laserscan:/home/thezerdas/exomy/exomy_ws/install/exomy:/opt/ros/foxy LD_LIBRARY_PATH=/home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/lib:/home/thezerdas/exomy/exomy_ws/install/exomy_msgs/lib:/home/thezerdas/ros2_ws/install/realsense2_camera_msgs/lib:/home/thezerdas/exomy/exomy_ws/install/rover_gazebo_plugins/lib:/home/thezerdas/exomy/exomy_ws/install/depthimage_to_laserscan/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/lib/python3.8/site-packages:/home/thezerdas/exomy/exomy_ws/install/exomy_msgs/lib/python3.8/site-packages:/home/thezerdas/ros2_ws/install/realsense2_camera_msgs/lib/python3.8/site-packages:/home/thezerdas/exomy/exomy_ws/build/exomy:/home/thezerdas/exomy/exomy_ws/install/exomy/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/thezerdas/exomy/exomy_ws/build/exomy_sim -- -j2 -l2
+[10.533s] [35m[1mScanning dependencies of target joint_command_node[0m
+[10.824s] [ 50%] [32mBuilding CXX object CMakeFiles/joint_command_node.dir/src/joint_command_node.cpp.o[0m
+[23.367s] [100%] [32m[1mLinking CXX executable joint_command_node[0m
+[24.171s] [100%] Built target joint_command_node
+[24.214s] Invoked command in '/home/thezerdas/exomy/exomy_ws/build/exomy_sim' returned '0': CMAKE_PREFIX_PATH=/home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs:/home/thezerdas/exomy/exomy_ws/install/exomy_msgs:/home/thezerdas/ros2_ws/install/realsense2_description:/home/thezerdas/ros2_ws/install/realsense2_camera_msgs:/home/thezerdas/exomy/exomy_ws/install/rover_gazebo_plugins:/home/thezerdas/exomy/exomy_ws/install/exomy_sim_launch:/home/thezerdas/exomy/exomy_ws/install/exomy_sim:/home/thezerdas/exomy/exomy_ws/install/depthimage_to_laserscan:/home/thezerdas/exomy/exomy_ws/install/exomy:/opt/ros/foxy LD_LIBRARY_PATH=/home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/lib:/home/thezerdas/exomy/exomy_ws/install/exomy_msgs/lib:/home/thezerdas/ros2_ws/install/realsense2_camera_msgs/lib:/home/thezerdas/exomy/exomy_ws/install/rover_gazebo_plugins/lib:/home/thezerdas/exomy/exomy_ws/install/depthimage_to_laserscan/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/lib/python3.8/site-packages:/home/thezerdas/exomy/exomy_ws/install/exomy_msgs/lib/python3.8/site-packages:/home/thezerdas/ros2_ws/install/realsense2_camera_msgs/lib/python3.8/site-packages:/home/thezerdas/exomy/exomy_ws/build/exomy:/home/thezerdas/exomy/exomy_ws/install/exomy/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/thezerdas/exomy/exomy_ws/build/exomy_sim -- -j2 -l2
+[24.279s] Invoking command in '/home/thezerdas/exomy/exomy_ws/build/exomy_sim': CMAKE_PREFIX_PATH=/home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs:/home/thezerdas/exomy/exomy_ws/install/exomy_msgs:/home/thezerdas/ros2_ws/install/realsense2_description:/home/thezerdas/ros2_ws/install/realsense2_camera_msgs:/home/thezerdas/exomy/exomy_ws/install/rover_gazebo_plugins:/home/thezerdas/exomy/exomy_ws/install/exomy_sim_launch:/home/thezerdas/exomy/exomy_ws/install/exomy_sim:/home/thezerdas/exomy/exomy_ws/install/depthimage_to_laserscan:/home/thezerdas/exomy/exomy_ws/install/exomy:/opt/ros/foxy LD_LIBRARY_PATH=/home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/lib:/home/thezerdas/exomy/exomy_ws/install/exomy_msgs/lib:/home/thezerdas/ros2_ws/install/realsense2_camera_msgs/lib:/home/thezerdas/exomy/exomy_ws/install/rover_gazebo_plugins/lib:/home/thezerdas/exomy/exomy_ws/install/depthimage_to_laserscan/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/lib/python3.8/site-packages:/home/thezerdas/exomy/exomy_ws/install/exomy_msgs/lib/python3.8/site-packages:/home/thezerdas/ros2_ws/install/realsense2_camera_msgs/lib/python3.8/site-packages:/home/thezerdas/exomy/exomy_ws/build/exomy:/home/thezerdas/exomy/exomy_ws/install/exomy/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/thezerdas/exomy/exomy_ws/build/exomy_sim
+[24.301s] -- Install configuration: ""
+[24.301s] -- Installing: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/config
+[24.302s] -- Installing: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/config/joint_names_exomy_model.yaml
+[24.303s] -- Installing: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/config/mapper_params_online_async.yaml
+[24.303s] -- Installing: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/rviz
+[24.304s] -- Installing: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/rviz/simulation.rviz
+[24.306s] -- Installing: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/rviz/simulation2.rviz
+[24.306s] -- Installing: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/rviz/simulation3.rviz
+[24.307s] -- Installing: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models
+[24.307s] -- Installing: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/exomy_model
+[24.308s] -- Installing: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/exomy_model/exomy_model.csv
+[24.308s] -- Installing: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/exomy_model/model.config
+[24.313s] -- Installing: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/exomy_model/meshes
+[24.314s] -- Installing: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/exomy_model/meshes/STR_RF_link.STL
+[24.315s] -- Installing: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/exomy_model/meshes/DRV_LM_link.STL
+[24.317s] -- Installing: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/exomy_model/meshes/base_link.STL
+[24.323s] -- Installing: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/exomy_model/meshes/STR_LR_link.STL
+[24.325s] -- Installing: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/exomy_model/meshes/STR_LF_link.STL
+[24.326s] -- Installing: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/exomy_model/meshes/pupil_right_link.STL
+[24.326s] -- Installing: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/exomy_model/meshes/pupil_left_link.STL
+[24.327s] -- Installing: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/exomy_model/meshes/MRB_link.STL
+[24.329s] -- Installing: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/exomy_model/meshes/hat_link.STL
+[24.329s] -- Installing: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/exomy_model/meshes/bling_link.STL
+[24.330s] -- Installing: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/exomy_model/meshes/RFB_link.STL
+[24.332s] -- Installing: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/exomy_model/meshes/DRV_LF_link.STL
+[24.333s] -- Installing: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/exomy_model/meshes/eyewhite_link.STL
+[24.335s] -- Installing: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/exomy_model/meshes/cam_link.STL
+[24.339s] -- Installing: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/exomy_model/meshes/STR_RM_link.STL
+[24.340s] -- Installing: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/exomy_model/meshes/DRV_RF_link.STL
+[24.342s] -- Installing: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/exomy_model/meshes/DRV_RM_link.STL
+[24.343s] -- Installing: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/exomy_model/meshes/DRV_RR_link.STL
+[24.345s] -- Installing: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/exomy_model/meshes/STR_RR_link.STL
+[24.351s] -- Installing: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/exomy_model/meshes/LFB_link.STL
+[24.354s] -- Installing: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/exomy_model/meshes/head_link.STL
+[24.355s] -- Installing: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/exomy_model/meshes/STR_LM_link.STL
+[24.356s] -- Installing: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/exomy_model/meshes/DRV_LR_link.STL
+[24.358s] -- Installing: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/exomy_model/exomy_model.urdf
+[24.358s] -- Installing: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/exomy_model/exomy_model_ros.urdf
+[24.360s] -- Installing: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/mars_yard
+[24.360s] -- Installing: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/mars_yard/model.config
+[24.361s] -- Installing: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/mars_yard/meshes
+[24.362s] -- Installing: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/mars_yard/meshes/mars_yard.dae
+[24.405s] -- Installing: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/mars_yard/meshes/PUTBOrtho.jpg
+[24.414s] -- Installing: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/mars_yard/model.sdf
+[24.414s] -- Installing: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/mars_yard/model
+[24.415s] -- Installing: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/mars_yard/model/lab_terrain.blend
+[24.447s] -- Installing: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/exomy_model.urdf
+[24.452s] -- Installing: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/curiosity
+[24.453s] -- Installing: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/curiosity/model.config
+[24.453s] -- Installing: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/curiosity/meshes
+[24.454s] -- Installing: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/curiosity/meshes/curiosity.stl
+[24.461s] -- Installing: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/models/curiosity/model.sdf
+[24.461s] -- Installing: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/worlds
+[24.462s] -- Installing: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/worlds/obstacles.world
+[24.463s] -- Installing: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/worlds/curiosity.world
+[24.463s] -- Installing: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/worlds/empty.world
+[24.464s] -- Installing: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/worlds/mars_yard.world
+[24.466s] -- Execute custom install script
+[24.467s] -- Symlinking: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/lib/exomy_sim/joint_command_node
+[24.485s] -- Symlinking: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/environment/exomy_sim.sh
+[24.503s] -- Symlinking: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/environment/exomy_sim.dsv
+[24.524s] -- Symlinking: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/ament_index/resource_index/package_run_dependencies/exomy_sim
+[24.541s] -- Symlinking: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/ament_index/resource_index/parent_prefix_path/exomy_sim
+[24.558s] -- Symlinking: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/environment/ament_prefix_path.sh
+[24.575s] -- Symlinking: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/environment/ament_prefix_path.dsv
+[24.593s] -- Symlinking: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/environment/path.sh
+[24.616s] -- Symlinking: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/environment/path.dsv
+[24.633s] -- Symlinking: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/local_setup.bash
+[24.651s] -- Symlinking: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/local_setup.sh
+[24.678s] -- Symlinking: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/local_setup.zsh
+[24.721s] -- Symlinking: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/local_setup.dsv
+[24.773s] -- Symlinking: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/package.dsv
+[24.816s] -- Symlinking: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/ament_index/resource_index/packages/exomy_sim
+[24.832s] -- Symlinking: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/cmake/exomy_simConfig.cmake
+[24.861s] -- Symlinking: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/cmake/exomy_simConfig-version.cmake
+[24.877s] -- Symlinking: /home/thezerdas/exomy/exomy_ws/install/exomy_sim/share/exomy_sim/package.xml
+[24.905s] Invoked command in '/home/thezerdas/exomy/exomy_ws/build/exomy_sim' returned '0': CMAKE_PREFIX_PATH=/home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs:/home/thezerdas/exomy/exomy_ws/install/exomy_msgs:/home/thezerdas/ros2_ws/install/realsense2_description:/home/thezerdas/ros2_ws/install/realsense2_camera_msgs:/home/thezerdas/exomy/exomy_ws/install/rover_gazebo_plugins:/home/thezerdas/exomy/exomy_ws/install/exomy_sim_launch:/home/thezerdas/exomy/exomy_ws/install/exomy_sim:/home/thezerdas/exomy/exomy_ws/install/depthimage_to_laserscan:/home/thezerdas/exomy/exomy_ws/install/exomy:/opt/ros/foxy LD_LIBRARY_PATH=/home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/lib:/home/thezerdas/exomy/exomy_ws/install/exomy_msgs/lib:/home/thezerdas/ros2_ws/install/realsense2_camera_msgs/lib:/home/thezerdas/exomy/exomy_ws/install/rover_gazebo_plugins/lib:/home/thezerdas/exomy/exomy_ws/install/depthimage_to_laserscan/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/thezerdas/exomy/exomy_ws/install/exomy_sim_msgs/lib/python3.8/site-packages:/home/thezerdas/exomy/exomy_ws/install/exomy_msgs/lib/python3.8/site-packages:/home/thezerdas/ros2_ws/install/realsense2_camera_msgs/lib/python3.8/site-packages:/home/thezerdas/exomy/exomy_ws/build/exomy:/home/thezerdas/exomy/exomy_ws/install/exomy/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/thezerdas/exomy/exomy_ws/build/exomy_sim
