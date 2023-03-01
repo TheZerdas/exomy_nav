@@ -17,7 +17,7 @@ def generate_launch_description():
                                        'config', 'mapper_params_online_async.yaml')
 
     # Process the URDF file
-    urdf_file = os.path.join(get_package_share_directory('exomy_sim'),'models/exomy_model/exomy_model.urdf')
+    urdf_file = os.path.join(get_package_share_directory('exomy_sim'),'models/exomy_model/exomy_model_ros.urdf')
     # Some packages require the path to the urdf file, others require the opened file:
     with open(urdf_file, 'r') as infp:
             robot_desc = infp.read()
