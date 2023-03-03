@@ -1,0 +1,57 @@
+##### nahrani do github #####
+git status
+git add .
+git commit -m "comment"
+git push -u origin master
+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
+
+##### simulace ##### 
+#terminal 1
+export GAZEBO_RESOURCE_PATH=/usr/share/gazebo-11
+ros2 launch exomy_sim_launch simulation_mod.launch.py
+#terminal 2 key
+ros2 run teleop_twist_keyboard teleop_twist_keyboard
+#terminal 2 navi
+ros2 launch exomy_sim_launch navigation_launch.py map_subscribe_transient_local:=true
+
+#terminal 1
+source install/setup.bash
+ros2 launch exomy_sim_launch simulation_mod_2.launch.py
+
+#terminal 2
+source install/setup.bash
+ros2 launch exomy_sim_launch online_async_launch.py use_sim_time:=true
+
+#terminal 3
+source install/setup.bash
+ros2 launch exomy_sim_launch navigation_launch.py use_sim_time:=true
+
+stara varianta
+    <!--ODOM-->
+  <gazebo>
+      <plugin name="diff_drive" filename="libgazebo_ros_diff_drive.so">
+
+          <!-- Wheel Information -->
+          <left_joint>DRV_LM_joint</left_joint>
+          <right_joint>DRV_RM_joint</right_joint>
+          <wheel_separation>0.3</wheel_separation>
+          <wheel_diameter>0.08</wheel_diameter>
+
+          <!-- Limits -->
+          <max_wheel_torque>200</max_wheel_torque>
+          <max_wheel_acceleration>10.0</max_wheel_acceleration>
+
+          <!-- Output -->
+          <!-- <command_topic>/cmd_vel</command_topic> -->
+          <odometry_topic>odom</odometry_topic>
+          <odometry_frame>odom</odometry_frame>
+          <robot_base_frame>base_link</robot_base_frame>
+
+          <publish_odom>true</publish_odom>
+          <publish_odom_tf>true</publish_odom_tf>
+          <publish_wheel_tf>true</publish_wheel_tf>
+
+      </plugin>
+      </gazebo>
+
+      
