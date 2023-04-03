@@ -53,5 +53,10 @@ stara varianta
 
       </plugin>
       </gazebo>
-
       
+      odometry laser
+      https://github.com/Adlink-ROS/rf2o_laser_odometry.git
+      visual odom
+      https://github.com/NVIDIA-ISAAC-ROS/isaac_ros_visual_slam.git
+      varianta 2
+      rtab map
